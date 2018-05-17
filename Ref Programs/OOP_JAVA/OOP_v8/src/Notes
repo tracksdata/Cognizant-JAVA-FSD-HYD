@@ -1,0 +1,102 @@
+
+
+Interface-> Its a Method specification which contains zero or more abstract class.
+-> Interface never contains any methods other than abstract methods
+-> every method in intreface by default public and abstract
+-> every variable in interface by default is public static and final
+
+-----------
+
+why we need?
+
+   --> To avoid tight-coupling between objects.
+   
+   --> To provide 100% abstraction of Object to Other.
+   
+   --> To relate different objects with common behav.
+   
+   --> For Multiple inheritance in java.
+
+
+--------------------------------
+
+
+  Imp notes :
+  
+       --> For interface we cant create Instance but we can
+           create reference var.
+           
+       --> By default all methods are public,abstract methods.
+       
+       --> by default all variables are public,static,final
+       
+       --> One Interface can extend many interfaces.
+       --> A clas can implements many interfaces
+       
+       Recom: Keep all interfaces in separate packages.
+       
+  
+  
+  ---------------------------------------------------------------
+  
+  
+  
+     Abstract-Class Vs Interface
+     ---------------------------
+     
+	Abstract Class                        Interface     
+  
+  
+    No multiple inheritance					Yes			
+  
+    Re-usable Behav                         No
+    
+    Partial Abstraction						100%
+    
+    Instance/static - static/dynamic var	static/Constant
+    
+    Constructor								No
+    
+    Good for relted classes                Related/un-related
+    
+    Best loose-coupling					  loose-coupling
+    
+    ------------------------------------------------------
+    
+    
+    Recommended Class-hierarchy Design
+    --------------------------------
+    
+    
+    Level 1: Interfaces
+    
+    
+    Level 2: Abstract Class
+    
+    
+    Level 3: Concrete Classes
+    
+    -----------------------------------
+    
+    
+    
+    
+    
+    
+    
+    					
+    
+  
+  
+  
+  
+  
+  
+  
+  
+       
+       
+       
+       
+       
+            

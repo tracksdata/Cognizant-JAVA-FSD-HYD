@@ -1,0 +1,14 @@
+
+
+Interface
+-----------
+
+why we need?
+
+   --> To avoid tight-coupling between objects.
+   
+   --> To provide 100% abstraction of Object to Other.
+   
+   --> To relate different objects with common behav.
+
+

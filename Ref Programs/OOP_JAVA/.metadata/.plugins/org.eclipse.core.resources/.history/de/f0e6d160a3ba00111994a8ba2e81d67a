@@ -1,0 +1,40 @@
+
+
+Constructor:
+-----------
+
+ use: To initialize/construct object variables with values
+      when obj being created.
+
+
+   In Java , Obj creation
+   -------------------------
+   
+   2 steps
+   
+   1. Runtime memory allocation: --> new
+   
+   2. InitiAlize that memory with Obj's values --> constructor
+   
+   
+   Notes:
+   
+   
+   --> Every Java class has one 'default constructor' if
+       no constructor defined by programmer.
+       
+  --> 'D.C' will put default values to Obj variables when no values
+       supplied by programmer.   
+       
+  --> To create any class's object with mandatory attribute values,
+      then override default constructor with Arg Cons.
+      
+      
+  --> If there is arg cons, the compiler will not place default cons.
+  
+  
+  
+  
+           
+       
+       

@@ -1,0 +1,15 @@
+package com.emp;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		SalesPerson sp1 = new SalesPerson();
+
+		sp1.id = "123";
+		sp1.name = "Sean";
+		sp1.commision = 100.00;
+
+	}
+
+}

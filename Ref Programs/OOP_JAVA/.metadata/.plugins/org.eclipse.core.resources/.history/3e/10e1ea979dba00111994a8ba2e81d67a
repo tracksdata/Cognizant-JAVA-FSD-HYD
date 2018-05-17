@@ -1,0 +1,25 @@
+package com;
+
+public class MehodCallDemo {
+
+	public void ins_a() {
+		
+	}
+
+	public void ins_b() {
+		
+	}
+	
+
+	public static void sta_a() {
+		
+	}
+
+	public static void sta_b() {
+		
+	}
+
+
+
+	
+}

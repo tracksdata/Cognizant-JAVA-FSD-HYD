@@ -1,0 +1,17 @@
+package com.trainer;
+
+public class Trainer {
+
+	public String trName;
+	public String trSkill;
+	public double trSalary;
+
+	public void teach() {
+		System.out.println("Teach");
+	}
+
+	public void trPersonalBehav() {
+		System.out.println("Tr Personal Behav");
+	}
+
+}

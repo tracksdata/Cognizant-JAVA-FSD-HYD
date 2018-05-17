@@ -1,0 +1,19 @@
+package com;
+
+class Pqr {
+
+	// state
+
+	public void method1(int arg) {
+		System.out.println("Method 1");
+	}
+
+}
+
+public class MethodDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

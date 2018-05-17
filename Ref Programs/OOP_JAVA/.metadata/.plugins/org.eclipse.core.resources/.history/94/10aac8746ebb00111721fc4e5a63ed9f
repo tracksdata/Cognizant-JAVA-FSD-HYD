@@ -1,0 +1,23 @@
+package com;
+
+class Outer {
+
+	// 1. State
+	// 2. Cons
+	// 3. Methods
+	// 4. Inner Class
+	class Inner {
+
+	}
+
+}
+
+public class InnerClassDemo {
+
+	public static void main(String[] args) {
+
+		Outer.Inner i = new Outer().new Inner();
+
+	}
+
+}

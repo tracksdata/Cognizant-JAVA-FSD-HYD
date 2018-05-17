@@ -1,0 +1,12 @@
+package com.car;
+
+public class Car {
+
+	public void move() {
+
+		// Rotate wheel
+
+		System.out.println("Car Moving");
+	}
+
+}

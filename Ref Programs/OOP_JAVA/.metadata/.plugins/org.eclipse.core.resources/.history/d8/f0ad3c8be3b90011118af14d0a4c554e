@@ -1,0 +1,19 @@
+// 1. Package Dec
+package p1;
+
+// 2. import statements
+import com.emirates.em.emp.*;
+
+// 3. Public class
+public class A {
+
+	B bef;
+	p2.C cef;
+	Emp empRef;
+
+}
+
+// 4. default classes
+class A_Helper {
+
+}

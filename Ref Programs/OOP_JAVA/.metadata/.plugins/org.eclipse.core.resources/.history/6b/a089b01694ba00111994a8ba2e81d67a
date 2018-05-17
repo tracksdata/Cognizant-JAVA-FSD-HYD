@@ -1,0 +1,9 @@
+package com;
+
+public class VarScopeDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

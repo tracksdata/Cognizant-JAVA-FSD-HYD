@@ -1,0 +1,18 @@
+
+
+Inheritance:
+------------
+
+
+ why we need?
+ 
+   
+    --> Re-use common state and behav on specialized classes.
+    
+    --> Extending current system without any complexity.
+    
+    --> Adding new properties and behav to existing Objects
+    
+    --> To bring Runtime-Polymorphisn on Objects.
+    
+    

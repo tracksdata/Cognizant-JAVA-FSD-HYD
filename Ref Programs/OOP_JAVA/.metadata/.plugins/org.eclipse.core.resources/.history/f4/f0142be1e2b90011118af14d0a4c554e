@@ -1,0 +1,9 @@
+// 1. Package Dec
+package p1;
+
+// 2. import statements
+
+// 3. Public class
+public class A {
+
+}

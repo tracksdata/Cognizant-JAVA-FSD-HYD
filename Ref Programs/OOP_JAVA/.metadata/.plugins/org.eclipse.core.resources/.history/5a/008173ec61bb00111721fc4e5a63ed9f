@@ -1,0 +1,12 @@
+package com.wheel;
+
+public class MRFWheel implements Wheel {
+
+	
+	
+	
+	public void iternalbehav() {
+		System.out.println("MRF Internal Behav");
+	}
+
+}

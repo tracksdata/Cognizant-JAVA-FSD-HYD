@@ -1,0 +1,23 @@
+
+
+Constructor:
+-----------
+
+   In Java , Obj creation
+   -------------------------
+   
+   2 steps
+   
+   1. Runtime memory allocation: --> new
+   
+   2. InitiAlize that memory with Obj's values --> constructor
+   
+   
+   Notes:
+   
+   
+   --> Every Java class has one 'default constructor' if
+       no constructor defined by programmer.
+       
+  --> 'D.C' will put default values to Obj variables when no values
+       supplied by programmer.   

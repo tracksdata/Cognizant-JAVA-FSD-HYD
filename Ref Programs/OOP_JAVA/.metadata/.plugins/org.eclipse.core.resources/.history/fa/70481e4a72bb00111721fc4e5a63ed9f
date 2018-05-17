@@ -1,0 +1,20 @@
+package com;
+
+interface StudentListener {
+	void listen();
+}
+
+public class AnonymousDemo {
+
+	public static void main(String[] args) {
+
+		StudentListener sl = new StudentListener() {
+			@Override
+			public void listen() {
+
+			}
+		};
+
+	}
+
+}

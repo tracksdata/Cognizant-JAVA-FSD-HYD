@@ -1,0 +1,16 @@
+package com;
+
+class Xyz{
+	
+	
+	
+}
+
+
+public class VarUseDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

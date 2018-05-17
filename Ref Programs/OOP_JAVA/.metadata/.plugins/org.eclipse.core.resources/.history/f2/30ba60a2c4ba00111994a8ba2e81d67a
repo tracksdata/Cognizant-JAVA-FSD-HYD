@@ -1,0 +1,17 @@
+package com;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		God god = new God();
+
+		Human human = new Human();
+		Animal animal = new Animal();
+
+		god.manageHuman(human);
+		god.manageAnimal(animal);
+
+	}
+
+}

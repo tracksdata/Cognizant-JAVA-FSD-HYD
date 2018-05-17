@@ -1,0 +1,16 @@
+package com.emp;
+
+public class Employee {
+
+	public int empID;
+	public String empName;
+	public String empAddress;
+
+	public Employee(int id) {
+		empID = id;
+	}
+
+	public Employee(String name) {
+		empName = name;
+	}
+}

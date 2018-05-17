@@ -1,0 +1,67 @@
+
+
+Inheritance:
+------------
+
+
+Method Overriding
+--------------------
+
+ --> re-implementing super class's behav logic in different way
+     in sub-class.
+ 
+ 
+ Rules:
+ -------
+ 
+    1. Must be same
+    
+        --> Method Name
+        --> Type of args
+        --> Number of arg
+        --> Order of args
+        
+    2. May different
+    
+        --> Return Type
+        
+        --> Access specifier ( should not reduce visibility )
+        
+ -----------------------------------------------------------------
+ 
+ 
+  Polymorphism 
+  -------------
+  
+  
+  One Object/Type doing same behav in different way based
+  input or Envi.	
+  
+  Types:
+  ------
+  
+  1. static/compile : overloading
+  
+  2. dynamic/runtime : overriding ( Inheritance )
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

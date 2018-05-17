@@ -1,0 +1,7 @@
+package com.sale;
+
+public class SalesPerson {
+
+	String name;
+	
+}

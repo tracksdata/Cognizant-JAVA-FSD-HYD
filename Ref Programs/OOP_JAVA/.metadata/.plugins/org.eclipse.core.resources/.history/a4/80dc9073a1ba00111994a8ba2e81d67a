@@ -1,0 +1,9 @@
+package com.emp;
+
+public class Employee {
+
+	public int empID;
+	public String empName;
+	public String empAddress;
+
+}

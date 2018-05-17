@@ -1,0 +1,25 @@
+package com.car;
+
+import com.wheel.MRFWheel;
+
+/*
+ *  --> IS-A (Inheritance )
+ * 
+ *  --> HAS-A ( have reference of that )
+ * 
+ */
+
+public class Car {
+
+	MRFWheel wheel; // HAS-A
+
+	public void move() {
+
+		// Rotate wheel
+		wheel = new MRFWheel();
+		wheel.rotate();
+
+		System.out.println("Car Moving");
+	}
+
+}

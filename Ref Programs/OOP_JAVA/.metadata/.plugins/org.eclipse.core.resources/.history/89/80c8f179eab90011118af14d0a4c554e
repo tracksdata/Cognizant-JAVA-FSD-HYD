@@ -1,0 +1,20 @@
+package com.cust;
+
+public class Customer {
+
+	// 1. state var
+
+	// a. object / Instance var
+	int custID; // primitive
+	String custname; // Reference
+
+	// b. static / class var
+	static float purDiscount;
+
+	// 2. constructor
+
+	// 3. behav - Methods
+
+	// 4. Inner classes
+
+}

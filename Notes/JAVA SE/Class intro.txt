@@ -1,0 +1,47 @@
+OOPS
+-----------
+1. class: Its a High level group name.
+Ex: Fruit, Employee, Vehicle
+
+What class contains?
+	-> properties/ variables / fields
+	Types of properties?
+		-> instance properties
+		-> static properties / non static
+		-> final properties
+		-> trainsient
+		-> volatile
+		-> const properties
+
+	----------------------------------------------
+	-> methods
+		-> instance methods
+		-> static methods
+		-> final methods
+		-> abstract methods
+		-> native methods
+	----------------------------------------------
+
+	-> cinstructors
+		-> empty constructors
+		-> parametarized constructors
+
+Class Types:
+	-> concreate class
+	-> abstract class
+	-> final class
+
+
+
+==========================================================================
+
+
+
+	
+
+
+		
+
+
+
+	

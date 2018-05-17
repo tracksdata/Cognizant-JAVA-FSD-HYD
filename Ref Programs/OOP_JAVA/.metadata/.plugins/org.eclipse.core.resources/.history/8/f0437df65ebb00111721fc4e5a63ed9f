@@ -1,0 +1,11 @@
+package com.car;
+
+public class Car {
+
+	
+	public void move() {
+		
+		
+	}
+	
+}

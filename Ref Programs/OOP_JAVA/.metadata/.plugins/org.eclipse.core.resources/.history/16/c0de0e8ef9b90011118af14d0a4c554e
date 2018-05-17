@@ -1,0 +1,24 @@
+package com;
+
+/*
+ *  JRE
+ *  -----
+ *  
+ *   have main() , so  that JRE can invoke, to Run Application.
+ * 
+ */
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		System.out.println("START");
+		
+		
+		
+
+		System.out.println("END");
+
+	}
+
+}

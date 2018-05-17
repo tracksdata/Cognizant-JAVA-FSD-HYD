@@ -1,0 +1,21 @@
+package com.emp;
+
+class A {
+
+}
+
+class B extends A {
+
+}
+
+class C extends B {
+
+}
+
+public class InheritanceSyntax {
+
+	public static void main(String[] args) {
+
+	}
+
+}

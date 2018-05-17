@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.sale.SalesPerson"/>
+<fullyQualifiedTypeName name="com.cust.Customer"/>
+<fullyQualifiedTypeName name="com.pack1.Employee"/>
+<fullyQualifiedTypeName name="p2.E"/>
+<fullyQualifiedTypeName name="p1.A"/>
+<fullyQualifiedTypeName name="com.trainer.Trainer"/>
+<fullyQualifiedTypeName name="com.Publisher"/>
+<fullyQualifiedTypeName name="com.Person"/>
+<fullyQualifiedTypeName name="com.Abc"/>
+<fullyQualifiedTypeName name="com.Xyz"/>
+<fullyQualifiedTypeName name="com.emp.Employee"/>
+<fullyQualifiedTypeName name="com.emp.C"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="com.emp.SalesPerson"/>
+<fullyQualifiedTypeName name="com.Robo"/>
+<fullyQualifiedTypeName name="com.Car"/>
+<fullyQualifiedTypeName name="com.Vehicle"/>
+<fullyQualifiedTypeName name="com.God"/>
+<fullyQualifiedTypeName name="com.Animal"/>
+<fullyQualifiedTypeName name="com.LivingThing"/>
+<fullyQualifiedTypeName name="com.Human"/>
+<fullyQualifiedTypeName name="com.Male"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="com.car.Car"/>
+<fullyQualifiedTypeName name="com.wheel.Wheel"/>
+<fullyQualifiedTypeName name="com.wheel.MRFWheel"/>
+<fullyQualifiedTypeName name="com.wheel.DubaiWheel"/>
+<fullyQualifiedTypeName name="com.Actor"/>
+<fullyQualifiedTypeName name="com.EmployeeAddress"/>
+<fullyQualifiedTypeName name="com.Outer.Inner"/>
+<fullyQualifiedTypeName name="com.JavaStudent"/>
+<fullyQualifiedTypeName name="com.Trainer"/>
+<fullyQualifiedTypeName name="com.StudentListener"/>
+<fullyQualifiedTypeName name="Local"/>
+</qualifiedTypeNameHistroy>

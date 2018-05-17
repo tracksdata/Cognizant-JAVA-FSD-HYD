@@ -1,0 +1,91 @@
+
+
+Inheritance:
+------------
+
+
+Method Overriding
+--------------------
+
+ --> re-implementing super class's behav logic in different way
+     in sub-class.
+ 
+ 
+ Rules:
+ -------
+ 
+    1. Must be same
+    
+        --> Method Name
+        --> Type of args
+        --> Number of arg
+        --> Order of args
+        
+         --> Return Type
+        
+    2. May different
+        
+        --> Access specifier ( should not reduce visibility )
+        
+ -----------------------------------------------------------------
+ 
+ 
+  Polymorphism 
+  -------------
+  
+  
+  One Object/Type doing same behav in different way based
+  input or Envi.	
+  
+  Types:
+  ------
+  
+  1. static/compile : overloading
+  
+  2. dynamic/runtime : overriding ( Inheritance )
+  
+  
+  
+ 
+ ---------------------------------------------
+ 
+ Implicit Reference Type Casting
+ ----------------------------------
+ 
+ 
+  Assigning sub-class objs to super class
+  reference var.
+  
+  why we need?
+  
+  To view all different sub class objs as one type,
+  to do same behav in different way ( Runtime poly ) using
+  that one type.
+  
+  
+ Explicit Reference Type Casting
+ ----------------------------------
+ 
+ why we need?
+ 
+  To get specific functionality from sub-class obj, when it
+  is assigned to common type.
+  
+  Imp Note: If 'instanceOf' returns true. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

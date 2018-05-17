@@ -1,0 +1,99 @@
+Class Notes
+--------------------
+ class: Its a High level group name.
+Ex: Fruit, Employee, Vehicle
+
+What class contains?
+	-> properties/ variables / fields
+	Types of properties?
+		-> instance properties
+		-> static properties / non static
+		-> final properties
+		-> trainsient
+		-> volatile
+		-> const properties
+
+	----------------------------------------------
+	-> methods
+		-> instance methods
+		-> static methods
+		-> final methods
+		-> abstract methods
+		-> native methods
+	----------------------------------------------
+
+	-> constructors
+		-> empty constructors
+		-> parametarized constructors
+
+Class Types:
+	-> concreate class
+	-> abstract class
+	-> final class
+
+
+
+==========================================================================
+
+Notes
+-----
+	-> Static methods never allow non static data to access directly
+	-> We need object to access non static data in a static method
+	-> We need object to access non static data in the non static method, if non static data is in other classes
+	-> non static methods accepts static data and non static data directly with out help of any objects
+	   if that data is avaiable in the same class where non static method is defined
+	   
+	   
+
+Static
+-------
+-> content of a static data is common for all the object accross the application
+-> Static data can be assigned any where in the class. Assigning static data with object is not recamemded.
+-> static methods accepts only static data
+-> non static methods accepts static and non static data directly
+-> static methods accepts non static data only with help of objects
+-> static data can be accessble with out object or class name if that data is defined in the same class
+-> If that static data is defined in other class, then we should access that static data with class name where
+   that static data is defined.
+   
+    
+
+
+
+	   
+	   
+	   
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+		
+
+
+
+	

@@ -1,0 +1,33 @@
+package com;
+
+/*
+ *  Type Casting
+ *  ------------
+ *  
+ *  Converting One Type Data to Other.
+ * 
+ * 	
+ * Types:
+ * ------
+ *  
+ *  1. Primary T.C
+ *  
+ *    a. Implicit
+ *    b. Explicit
+ *  
+ *  2. Reference T.C
+ * 
+ * 
+ * 
+ */
+
+public class TypeCasting {
+
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+	
+}

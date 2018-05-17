@@ -1,0 +1,32 @@
+
+
+Interface
+-----------
+
+why we need?
+
+   --> To avoid tight-coupling between objects.
+   
+   --> To provide 100% abstraction of Object to Other.
+   
+   --> To relate different objects with common behav.
+   
+   --> For Multiple inheritance in java.
+
+
+--------------------------------
+
+
+  Imp notes :
+  
+       --> For interface we cant create Instance but we can
+           create reference var.
+           
+       --> By default all methods are public,abstract methods.
+       
+       --> by default all variables are public,static,final
+       
+       
+       
+       
+            

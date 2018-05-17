@@ -1,0 +1,23 @@
+package com;
+
+// Reference Type Casting
+
+class Vehicle {
+
+}
+
+class Car extends Vehicle {
+
+}
+
+class Bike extends Vehicle {
+
+}
+
+public class TypeCasting2 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

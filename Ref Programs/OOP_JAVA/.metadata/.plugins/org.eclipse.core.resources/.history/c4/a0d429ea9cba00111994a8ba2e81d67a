@@ -1,0 +1,31 @@
+package com;
+
+class Xyz {
+
+	int ins;
+	static int sta;
+
+	void ins_method() {
+		System.out.println(ins);
+		System.out.println(sta);
+	}
+
+	static void sta_method() {
+		System.out.println(ins);
+		System.out.println(sta);
+	}
+
+}
+
+public class VarUseDemo {
+
+	public static void main(String[] args) {
+
+		Xyz.sta_method();
+
+		Xyz xyz = new Xyz();
+		xyz.ins_method();
+
+	}
+
+}

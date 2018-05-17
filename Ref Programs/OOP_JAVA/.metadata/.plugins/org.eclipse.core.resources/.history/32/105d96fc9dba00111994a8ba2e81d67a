@@ -1,0 +1,13 @@
+package com;
+
+class Pqr {
+
+}
+
+public class MethodDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

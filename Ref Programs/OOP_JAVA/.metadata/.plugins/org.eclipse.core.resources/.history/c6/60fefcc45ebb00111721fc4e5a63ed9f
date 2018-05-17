@@ -1,0 +1,9 @@
+package com.wheel;
+
+public class MRFWheel {
+
+	public void rotate() {
+		
+	}
+	
+}

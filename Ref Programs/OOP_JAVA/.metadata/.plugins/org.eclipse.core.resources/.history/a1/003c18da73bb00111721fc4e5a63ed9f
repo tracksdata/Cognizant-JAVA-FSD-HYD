@@ -1,0 +1,24 @@
+package com;
+
+public class LocalInnerClass {
+	
+	
+	class No_Static{
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+		class Local{
+			
+			//
+			
+		}
+		
+		Local local=new Local();
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+package com.wheel;
+
+public interface Wheel {
+
+	public abstract void rotate();
+	
+}

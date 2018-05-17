@@ -1,0 +1,15 @@
+package com;
+
+class Abc {
+
+	static int staVar;
+
+}
+
+public class VarInitDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

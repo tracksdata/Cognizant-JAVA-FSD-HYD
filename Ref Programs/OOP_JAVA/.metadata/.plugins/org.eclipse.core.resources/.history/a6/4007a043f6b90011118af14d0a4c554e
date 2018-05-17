@@ -1,0 +1,31 @@
+package com.cust;
+
+import com.sale.SalesPerson;
+
+public class Customer {
+
+	int custID;
+	String custName;
+	double custBudget;
+
+	void purchase() {
+		
+		// Create Sales Person Object.
+		
+		/*
+		 *   2  steps:
+		 *   ----------
+		 *   a. Perform Memory Allocation  --> 'new'
+		 *   b. Fill that Memory with Object var Values --> Constructor.
+		 * 
+		 */
+		
+		new SalesPerson();
+		
+		
+	}
+
+}
+
+
+

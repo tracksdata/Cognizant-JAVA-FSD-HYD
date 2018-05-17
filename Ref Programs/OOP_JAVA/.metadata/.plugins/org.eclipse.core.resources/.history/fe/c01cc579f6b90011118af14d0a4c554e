@@ -1,0 +1,14 @@
+package com.sale;
+
+public class SalesPerson {
+
+	String name;
+	
+	public SalesPerson(String spName) {
+	}
+
+	public void takeOrder() {
+
+	}
+
+}

@@ -1,0 +1,25 @@
+
+
+Abstraction And Encapsulation:
+------------------------------
+
+ why we need ?
+ 
+   1. To hide un-wanted state and behav of Object for other.
+   2. For Security.
+   3. To preset Object in simple to Other.
+   4. Loose coupling b/w Objs.
+   
+   
+   In Java
+   -----------
+   
+     --> using access specifiers
+     
+               public,private,protected
+               
+    --> using packages           
+               
+    --> Using Interfaces           
+   
+   

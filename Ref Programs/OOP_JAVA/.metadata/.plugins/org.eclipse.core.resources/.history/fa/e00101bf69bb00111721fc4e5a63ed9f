@@ -1,0 +1,23 @@
+package com;
+
+/*
+ *  Static Poly
+ *  ------------
+ * 
+ */
+
+class Actor {
+
+	public void act() {
+		System.out.println("No Act");
+	}
+
+}
+
+public class StaticPolyDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

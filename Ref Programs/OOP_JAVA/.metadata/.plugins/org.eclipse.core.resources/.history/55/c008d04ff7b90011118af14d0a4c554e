@@ -1,0 +1,21 @@
+package com.sale;
+
+public class SalesPerson {
+
+	String name;
+
+	public SalesPerson(String spName) {
+		name = spName;
+	}
+
+	public void takeOrder(String custName, String item, String shipAddress,
+			String deliveryDate) {
+
+		// Check stock availability
+		// Check delivery Date
+
+		boolean staus = true;
+
+	}
+
+}

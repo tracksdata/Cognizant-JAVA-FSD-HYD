@@ -1,0 +1,11 @@
+package com.emp;
+
+import com.trainer.Trainer;
+
+public class Employee {
+
+	public void learn(Trainer trainer) {
+
+	}
+
+}

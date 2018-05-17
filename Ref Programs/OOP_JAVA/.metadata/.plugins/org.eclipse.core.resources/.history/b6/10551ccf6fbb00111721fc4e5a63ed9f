@@ -1,0 +1,28 @@
+
+
+Nested/Inner Classes
+----------------------
+
+
+  why we need?
+  -----------
+  
+  
+      --> To group all strong associated class within Main
+          class.
+          
+      --> To Encapsulate the class.
+      
+      --> To Overcome Multiple-Inheritance Limitation on class.
+      
+      
+ Types of nested Class:
+ ---------------------
+ 
+   1. Non-Static inner Class.
+   2. Static inner Class
+   3. Local inner Class
+   4. Anonymous inner Class ( Most Used )
+ 
+          
+  

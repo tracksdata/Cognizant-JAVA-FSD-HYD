@@ -1,0 +1,13 @@
+package com.cust;
+
+public class Customer {
+
+	// 1. state var
+
+	// 2. constructor
+
+	// 3. behav - Methods
+
+	// 4. Inner classes
+
+}

@@ -1,0 +1,22 @@
+package com;
+
+public class VarDemo {
+
+	byte byteVar = -128;
+	short shortVar = 1212;
+	int intVar = 121212;
+	long longVar = 23234234;
+
+	// Note
+
+	long longVar2 = 121212121212L;
+
+	public void a() {
+		b(121212121212L);
+	}
+
+	public void b(long val) {
+		System.out.println(val);
+	}
+
+}

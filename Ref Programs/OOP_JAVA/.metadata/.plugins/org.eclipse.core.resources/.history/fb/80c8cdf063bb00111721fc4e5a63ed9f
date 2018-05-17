@@ -1,0 +1,16 @@
+package com.wheel;
+
+
+
+interface A{
+	
+}
+
+interface B extends A{
+	
+}
+
+
+public class IntDemo {
+
+}

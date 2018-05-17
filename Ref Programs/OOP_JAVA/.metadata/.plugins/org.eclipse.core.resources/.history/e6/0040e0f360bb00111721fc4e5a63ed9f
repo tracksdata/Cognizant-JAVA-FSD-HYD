@@ -1,0 +1,9 @@
+package com.wheel;
+
+public class DubaiWheel {
+
+	public void rotate() {
+		System.out.println("Dubai Wheel rotating");
+	}
+
+}

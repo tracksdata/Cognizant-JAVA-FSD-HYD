@@ -1,0 +1,9 @@
+package com.trainer;
+
+public class Trainer {
+
+	String trName;
+	String trSkill;
+	double trSalary;
+
+}

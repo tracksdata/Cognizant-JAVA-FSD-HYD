@@ -1,0 +1,9 @@
+package p1;
+
+public class A {
+
+	// state
+	private int pri = 1;
+	int de = 2;
+
+}

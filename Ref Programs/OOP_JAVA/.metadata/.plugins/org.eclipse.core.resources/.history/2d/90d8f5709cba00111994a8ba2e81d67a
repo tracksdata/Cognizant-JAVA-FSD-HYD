@@ -1,0 +1,24 @@
+package com;
+
+class Xyz {
+
+	int ins;
+	static int sta;
+
+	void ins_method() {
+
+	}
+
+	static void sta_method() {
+
+	}
+
+}
+
+public class VarUseDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package com;
+
+public class StaticPolyDemo {
+
+	public static void main(String[] args) {
+		
+	}
+	
+}

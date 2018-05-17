@@ -1,0 +1,38 @@
+package com.customer;
+
+public class Customer {
+
+	// 1. state var
+
+	// a. object / Instance var
+	int custID; // primitive
+	String custname; // Reference
+
+	// b. static / class var
+	static float purDiscount; // Primitive.
+	final static String SHOP_NAME = "HOMECARE";
+
+	// 2. constructor
+	public Customer() {
+	}
+
+	// 3. behav - Methods
+
+	// a. Object/Instance Method
+
+	void purchase() {
+		// A, L , L
+		// Conditional / looping
+		// sending Message : Invoking Other Obj behav
+		// Got result.
+	}
+
+	double getBudget() {
+
+		// oprn
+		return 100.00;
+	}
+
+	// 4. Inner classes
+
+}

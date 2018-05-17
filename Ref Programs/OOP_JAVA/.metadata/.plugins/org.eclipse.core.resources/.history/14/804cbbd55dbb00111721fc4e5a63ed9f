@@ -1,0 +1,14 @@
+package com;
+
+public class Female extends Human {
+
+	public void walk() {
+		System.out.println("Female Walk");
+	}
+
+	@Override
+	public void abc() {
+		
+	}
+	
+}

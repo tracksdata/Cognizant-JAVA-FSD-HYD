@@ -1,0 +1,25 @@
+package com;
+
+interface StudentListener {
+	void listen();
+}
+
+class JavaStudent implements StudentListener {
+
+	@Override
+	public void listen() {
+		System.out.println("Listening Java");
+	}
+}
+
+public class AnonymousDemo {
+
+	public static void main(String[] args) {
+
+		// Need One Java Student-Listener Object
+		JavaStudent js = new JavaStudent();
+		js.listen();
+
+	}
+
+}

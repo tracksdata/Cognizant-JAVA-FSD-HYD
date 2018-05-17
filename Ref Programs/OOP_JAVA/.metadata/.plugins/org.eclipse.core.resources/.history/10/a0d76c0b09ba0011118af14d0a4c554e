@@ -1,0 +1,10 @@
+package com.emp;
+
+public class Employee {
+	
+	
+	public void learn() {
+		
+	}
+
+}

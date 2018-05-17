@@ -1,0 +1,15 @@
+package p2;
+
+import p1.A;
+
+public class E {
+
+	public void e_ObjMethod() {
+
+		A aobj = new A();
+		
+		System.out.println(aobj.pri);
+
+	}
+
+}

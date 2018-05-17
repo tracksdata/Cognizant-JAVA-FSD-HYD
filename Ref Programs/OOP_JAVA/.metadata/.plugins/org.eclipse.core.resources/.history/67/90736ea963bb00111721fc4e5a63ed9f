@@ -1,0 +1,9 @@
+package com.wheel;
+
+public interface Wheel {
+
+	public static final int RADIOUS = 5;
+
+	void rotate();
+
+}

@@ -1,0 +1,12 @@
+Introduction
+-----------------
+1. JAVA SE
+2. OOPS
+3. JAVA EE
+4. UI  (HTML/CSS/JS/Jquery/Angular5/6) -> React?
+5. Hibernate
+6. Spring (Core,AOP,JDBC,ORM, JPA, JTA, Security, MVC and REST)
+7. MAVN
+8. GIT
+9. JUNIT and UI testing
+

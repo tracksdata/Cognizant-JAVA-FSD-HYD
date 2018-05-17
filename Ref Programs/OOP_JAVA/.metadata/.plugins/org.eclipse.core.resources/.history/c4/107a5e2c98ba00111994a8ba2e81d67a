@@ -1,0 +1,19 @@
+package com;
+
+class Abc {
+
+	static int staVar;
+
+	public void showValue() {
+		System.out.println(staVar);
+	}
+
+}
+
+public class VarInitDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

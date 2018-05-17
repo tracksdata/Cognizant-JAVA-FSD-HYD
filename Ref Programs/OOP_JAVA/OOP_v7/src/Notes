@@ -1,0 +1,45 @@
+
+
+Abstract Class
+-----------------
+
+
+  More generalized class, no intention to create
+  instance.
+  
+  use: To maintain common state $ behav for sub-classes.
+  
+   
+   Abstract Methods:
+   -----------------
+   
+   Method without body
+   
+   when to use: To force sub-classes to Override that
+                behav.
+                
+   
+    Imp Notes :
+    -----------
+    
+    
+    --> For A.C we can create instance but we can create reference
+        var.
+        
+    --> If any class having atleast one abstract method, then class
+        must be a abstract class.
+        
+    --> If any sub-class that extends abstract class with abstract
+        methods, must override those.   
+        
+    --> If every sub-class going override super-behav,define that
+        behav as 'abstract method'
+        
+    --> If-Sub class dosent override abstract method, declare that
+        class as 'abstract'.            
+        
+    
+    
+    
+                 
+                 

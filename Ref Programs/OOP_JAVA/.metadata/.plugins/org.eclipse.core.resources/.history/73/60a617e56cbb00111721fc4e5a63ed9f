@@ -1,0 +1,10 @@
+package com;
+
+public class Employee {
+
+	// State
+	String empName;
+
+	// Behav
+
+}

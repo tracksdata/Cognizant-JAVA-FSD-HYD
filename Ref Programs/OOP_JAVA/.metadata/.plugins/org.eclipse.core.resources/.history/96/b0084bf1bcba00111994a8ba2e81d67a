@@ -1,0 +1,9 @@
+package com.emp;
+
+public class InheritanceSyntax {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,12 @@
+
+
+Abstract Class
+-----------------
+
+
+  More generalized class, no intention to create
+  instance.
+  
+  use: To maintain common state $ behav for sub-classes.
+  
+  

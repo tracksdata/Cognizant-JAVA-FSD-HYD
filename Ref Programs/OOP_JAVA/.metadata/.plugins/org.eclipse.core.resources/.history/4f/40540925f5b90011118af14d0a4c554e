@@ -1,0 +1,13 @@
+package com.cust;
+
+public class Customer {
+
+	int custID;
+	String custname;
+	double custBudget;
+
+	void purchase() {
+
+	}
+
+}

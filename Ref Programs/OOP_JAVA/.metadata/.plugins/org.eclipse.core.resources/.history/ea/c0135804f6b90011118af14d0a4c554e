@@ -1,0 +1,16 @@
+package com.cust;
+
+public class Customer {
+
+	int custID;
+	String custName;
+	double custBudget;
+
+	void purchase() {
+		
+		// Create Sales Person Object.
+		
+		
+	}
+
+}

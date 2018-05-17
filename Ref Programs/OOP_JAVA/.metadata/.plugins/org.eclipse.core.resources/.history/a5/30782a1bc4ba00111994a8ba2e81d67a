@@ -1,0 +1,13 @@
+package com;
+
+public class God {
+
+	public void manageHuman() {
+
+	}
+
+	public void manageAnimal() {
+
+	}
+
+}

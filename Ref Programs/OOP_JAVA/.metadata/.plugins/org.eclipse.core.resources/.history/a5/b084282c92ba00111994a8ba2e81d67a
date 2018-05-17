@@ -1,0 +1,88 @@
+
+
+ Variables :
+ --------------
+ 
+  use :
+  -----
+  
+     --> To represent Object state
+     --> To Hold operational data .
+     
+     
+  Types of variables :
+  ---------------------
+  
+  A. by Type ( Data Type )
+  -----------------------
+  
+  a. Primary variables
+     
+      --> To hold values
+  
+  b. Reference variables
+  
+      --> To hold Obj's reference ( address )
+      
+   ---------------------------------------------------
+   
+   
+   
+   1. Primary/primitive  variables
+   ========================
+   
+      a. signed
+      
+      		i. integral
+      		
+      			byte ( 8 )
+      			short ( 16 )
+      			int   ( 32 )
+      			long  ( 64 )
+      		
+      	   ii. real
+      	   
+      	   		float ( 32 )
+      	   		double ( 64 )	
+      
+      b. un-signed
+      
+      			char ( 16 ) : Unicode
+      
+      c. boolean
+      
+      			boolean ( 1 )
+   
+      
+  -----------------------------------------------
+  
+  
+  Range : -2^n-1 to 0,2^n-1 -1
+  
+  
+  e.g byte : -2^7 to 0,2^7 -1  = -128 to 0,127
+   
+  
+  Note:
+  ------
+  
+  By default every whole numbers are int range ( 32 ) values in Java
+  programming.
+  
+  
+  By default every real numbers are double range ( 32 ) values in Java
+  programming.
+  
+  
+  -------------------------------------------------
+  
+  
+  true , false  are keywords as values to boolean type.
+  
+  
+  
+  
+  
+  
+  
+     

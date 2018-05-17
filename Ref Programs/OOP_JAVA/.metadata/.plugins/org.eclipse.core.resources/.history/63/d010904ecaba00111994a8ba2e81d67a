@@ -1,0 +1,22 @@
+package com;
+
+public class God {
+
+	public void manageHuman(Human human) {
+
+		human.read();
+		human.eat();
+		human.walk();
+		human.sleep();
+
+	}
+
+	public void manageAnimal(Animal animal) {
+
+		animal.eat();
+		animal.walk();
+		animal.sleep();
+		
+	}
+
+}

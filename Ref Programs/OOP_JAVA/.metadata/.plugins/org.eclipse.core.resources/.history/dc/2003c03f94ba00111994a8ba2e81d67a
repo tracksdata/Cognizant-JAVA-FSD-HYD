@@ -1,0 +1,22 @@
+package com;
+
+class Person {
+
+	public void doIncrement() {
+
+		int countVar=0;
+		countVar++;
+		
+	}
+	
+
+
+}
+
+public class VarScopeDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

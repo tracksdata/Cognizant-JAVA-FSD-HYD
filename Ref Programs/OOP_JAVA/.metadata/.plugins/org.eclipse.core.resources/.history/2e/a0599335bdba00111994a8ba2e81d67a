@@ -1,0 +1,31 @@
+package com.emp;
+
+class A {
+
+	public A() {
+		System.out.println("I am A");
+	}
+
+}
+
+class B extends A {
+
+	public B() {
+		System.out.println("I am B");
+	}
+}
+
+class C extends B {
+
+	public C() {
+		System.out.println("I am C");
+	}
+}
+
+public class InheritanceSyntax {
+
+	public static void main(String[] args) {
+
+	}
+
+}

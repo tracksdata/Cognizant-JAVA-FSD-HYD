@@ -1,0 +1,9 @@
+package p2;
+
+public class E {
+	
+	public void e_ObjMethod() {
+		
+	}
+
+}

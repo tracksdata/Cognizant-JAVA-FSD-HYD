@@ -1,0 +1,17 @@
+package com;
+
+/*
+ *  JRE
+ *  -----
+ *  
+ *   have main() , so  that JRE can invoke, to Run Application.
+ * 
+ */
+
+public class Test {
+
+	static void main() {
+
+	}
+
+}

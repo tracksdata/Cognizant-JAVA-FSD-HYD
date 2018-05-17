@@ -1,0 +1,13 @@
+package com;
+
+class Abc {
+
+}
+
+public class VarInitDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package com;
+
+public class VarDemo {
+
+	byte byteVar=127;
+	
+	
+}
