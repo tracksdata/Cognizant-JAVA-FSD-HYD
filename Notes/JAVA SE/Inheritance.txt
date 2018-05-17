@@ -1,0 +1,16 @@
+Inheritance
+------------------
+-> has 'A' relationsip
+-> is 'A' relationship
+
+
+Methods overloading
+------------------------
+-> Defining a method name with different signature is called method overloading
+
+what is a method signature
+	-> type of parameters
+	-> posision of parameters
+	-> number of parameters
+
+

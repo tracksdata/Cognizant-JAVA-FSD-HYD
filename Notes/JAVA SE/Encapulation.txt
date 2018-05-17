@@ -27,9 +27,34 @@ Access Modifiers
 	-> default
 	-> private
 
-public 
--------
--> Accessble with un same class and from other classes avialble in other packages
+
+POJO class   (Plain old java object) -> API Independent
+-----------------------------------------------------------
+
+-> POJO/BEAN/MODEL/ENTITY
+
+Rules for Pojo class construction
+-----------------------------------
+	-> Every property in the class should be defined as private
+	-> Every methods in the class should be defined as public with getters and setters
+
+Getters
+---------
+	-> getters will have return type, but no parameters
+Settes
+---------
+	-> setters will have parametrs but no retrurn types.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
