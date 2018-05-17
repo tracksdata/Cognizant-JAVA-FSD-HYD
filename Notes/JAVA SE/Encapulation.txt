@@ -1,0 +1,36 @@
+Encapulation
+--------------------
+-> Binding of methods and properties together in a class
+	-> Access modifiers
+	-> Packages
+
+Access Modifiers
+------------------
+	-> public
+	-> protected
+	-> default
+	-> private
+
+Access Modifiers do?
+----------------------
+	-> access level to properties and methods in a class
+	-> security constraints can be removed
+	-> they set access visibility levels throw out application
+
+
+Package
+----------
+	-> A package gropups classes in a logical structured mannger
+	-> A package is a separation of classes as per the class levels given by the programer
+	-> Simply a package means a folder
+
+
+
+
+
+
+
+
+
+
+
