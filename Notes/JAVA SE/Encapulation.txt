@@ -4,12 +4,7 @@ Encapulation
 	-> Access modifiers
 	-> Packages
 
-Access Modifiers
-------------------
-	-> public
-	-> protected
-	-> default
-	-> private
+
 
 Access Modifiers do?
 ----------------------
@@ -23,6 +18,19 @@ Package
 	-> A package gropups classes in a logical structured mannger
 	-> A package is a separation of classes as per the class levels given by the programer
 	-> Simply a package means a folder
+
+
+Access Modifiers
+------------------
+	-> public
+	-> protected
+	-> default
+	-> private
+
+public 
+-------
+-> Accessble with un same class and from other classes avialble in other packages
+
 
 
 
