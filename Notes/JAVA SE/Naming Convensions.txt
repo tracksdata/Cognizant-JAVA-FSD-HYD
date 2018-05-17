@@ -27,6 +27,10 @@ Ex: int , for, java.lang, com
 
 Character system supported by java:  UNICODE -> i18n
 
+if, if else, for 
+
+    boolean x=if(1000>200)
+
 
 
 

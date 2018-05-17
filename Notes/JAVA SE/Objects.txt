@@ -1,0 +1,76 @@
+Objects
+----------
+-> need to access class level data
+-> real time entity
+
+Types of Classes
+------------------
+-> simple class
+-> complex class
+
+Simple class
+--------------
+A Simple class object holds only one type of data.
+
+Ex: Integer, String , Double etc
+
+Complex class
+--------------
+A class which holds more than one type of value
+Ex: Employee, Bank, person .. etc
+
+
+Types of Objects
+------------------
+-> Mutable Objects	-> Object values can be modified
+-> Immutable Objects    -> Object values/content can not be modified
+
+Mutable: 
+Ex: StringBuffer and all wraper classes
+
+Immutable:
+Ex: String , and all complex classes
+
+Low level Object clasofications
+-----------------------------------
+-> Dependent Object
+-> Dependency Object
+
+
+Note: Every object in Java by default acts like call by reference including arrays
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

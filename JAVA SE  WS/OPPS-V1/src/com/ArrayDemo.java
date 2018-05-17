@@ -1,7 +1,4 @@
 package com;
-
-import javax.swing.plaf.synth.SynthScrollBarUI;
-
 public class ArrayDemo {
 	
 	public static void main(String[] args) {
