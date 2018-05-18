@@ -1,0 +1,11 @@
+Method Overrideing
+-------------------------
+1. if the super class method is public, then sub class overriden method can be only public
+2. If super class method is default, then sub class overridden method can be
+	-> default
+	-> public
+	-> protected
+3. if the super class method is procted, then sub class overridden method can be
+	-> protected
+	-> public
+

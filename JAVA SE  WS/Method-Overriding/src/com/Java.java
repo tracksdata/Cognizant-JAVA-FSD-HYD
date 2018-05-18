@@ -11,15 +11,15 @@ public class Java  extends Teacher{
 	
 	}*/
 	
-	@Override
+	/*@Override
 	public void doTeach() {
 	
-		super.doTeach(); // super class doTeach method
+		//super.doTeach(); // super class doTeach method
 		//super.calc(10, 20);
 		//System.out.println("AGe is "+super.MAX_AGE);
 		System.out.println("--- teaching Java");
 		
-	}
+	}*/
 	
 	public void praticeLab() {
 		System.out.println("--- practiceLab method of a Java class");

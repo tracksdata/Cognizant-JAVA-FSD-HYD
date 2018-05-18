@@ -9,6 +9,7 @@ class C1 {
 	public C1(int x) {
 		System.out.println("Parametarized  - C1  "+x);
 	}
+	
 
 }
 

@@ -15,11 +15,10 @@ public class Use {
 		
 		//--------------------------------------------
 		
-		Teacher teach;
-		teach=new Java(); 
-		
-		teach.calc(100, 200);
+		Teacher teach=new Java(); 
 		teach.doTeach();
+		/*teach.calc(100, 200);
+		
 		
 		teach=new Php();
 		teach.doTeach();
@@ -27,7 +26,7 @@ public class Use {
 		
 		teach=new JavaScipt();
 		teach.doTeach();
-		
+		*/
 		//teach.practiceLab();
 		
 		
