@@ -1,0 +1,22 @@
+Interfaces
+-------------
+-> Interface is a method specifecation contains 0 or more abstract methods and public static and final
+   variables
+-> if any class trying to implement abstract methods of an interface, then that class should use
+   a keyword 'implements'
+-> by default every method in the interface is public ans abstract
+-> by default every variable in the interface is public static and final
+
+-> an interface can extends to other interface
+-> a class can extends to another class
+-> a class can implements to another interface
+-> a class can not extends more than a class once
+-> a class can implements more than one interface once
+-> an interface can extends more than one interface once
+-> a class cannnot implements to another class
+-> an interface cannot implements to another inyterface 
+-> a class cannot extends to another interface
+
+
+
+
