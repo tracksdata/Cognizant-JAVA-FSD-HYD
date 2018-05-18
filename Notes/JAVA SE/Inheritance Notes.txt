@@ -1,0 +1,12 @@
+Notes
+--------
+1. A super class reference/object can store all its sub class/implementation class objects.
+2. A reference of a super class can be used to access all the methods in the super class, and
+   over ridden methods of a sub class. 
+3. A reference of a super class can not be used to access the individual methods (a method which is    there in the sub class and not present in the super class) of a sub class.
+
+
+Final classes
+-----------------
+Final classes can not be used to be super class to any other classes in java
+
