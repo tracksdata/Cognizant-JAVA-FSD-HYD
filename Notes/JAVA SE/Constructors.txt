@@ -1,0 +1,44 @@
+Constructors
+----------------
+-> Its a special method which executes autometivcally when the object of the class is craeted
+
+Rules
+------
+	-> class name and constructor name should be same
+	-> constructors should not have any return types, not even void
+	-> they can have parameters
+
+Notes
+-------
+-> By defalt, JVM adds a default constructor, if you are not providing any parametarized constructors
+
+
+-> Sub class always contains copy of a super class constructors.
+-> when we provide default constructor in super and sub classes, then sub class object can invoke
+   both class default constructors.
+-> When we provide parametarized constructor in super class, and not provided default constructor in the    super class, then JVM will not add a default constructor to the super class autometically.
+-> In this case, creating object the sub class with defalt constructor is impossible
+-> We have two solutions to this issue.
+	-> provide default constructor in the super class
+	-> explicilty invoke super class parametarized constructor from the sub class default 
+           constructor using super keyword
+-> When we provide only default constructor to the sub class, and trying to invoke parametarized 
+   constructor of a sub class, then providing parametarized constructor in the sub class is 
+   mandatary. this invokes super class default constructor and sub class parametarized constructor.
+
+
+-> When super class and sub class both are having parametarized constructor, and sub class is having
+   default constructor, if you are invoking parametarized constructor of a sub class, then providing
+   default constructor in the super class is mandatary. other wise you should explicitly invoke
+   super class parametarized constructor from the default constructor of a sub class by uisng 
+   super key word.  
+
+
+
+
+
+
+
+
+
+
