@@ -1,0 +1,44 @@
+
+
+ Lang API
+ ----------------
+  
+  java.lang.* ;
+  
+  Imp :
+  
+  --> By default Every java File imported this package's classes
+  
+  Classes and Interfaces
+  ----------------------
+  
+   --> Object
+   --> Class   
+   
+   --> System
+   
+   --> String
+   --> StringBuffer
+   --> StringBuilder
+   
+   
+   Wrapper classes
+   ----------------
+   --> Byte
+   --> Short
+   --> Integer
+   --> Float
+   --> Double
+   --> Character
+   --> Boolean
+   
+   
+   --> Thread
+   --> Runnable ( I )
+   --> ThreadGroup
+   
+   
+   --> Runtime
+   
+   
+ 

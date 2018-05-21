@@ -1,0 +1,3 @@
+Garbage Collections
+-----------------------
+-> Mark and sweep

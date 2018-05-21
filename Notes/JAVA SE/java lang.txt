@@ -1,0 +1,50 @@
+java.lang package
+----------------------
+.jar
+.war
+.ear
+
+1. Obect
+2. Wraper classes
+3. String, StringBuffer
+4. Garbage Collections
+5. Exception
+6. Thread
+7. Class (java Reflection API)
+
+
+
+1. Object
+-------------
+-> java.lang.Object is the super class to all the clases in java by default
+-> This class is capable of holding objects of any other class in java
+-> This class contains methods which are common to any obejct in java
+
+
+
+2. String
+--------------
+	Two types of objects
+	1. mutable : content of the object can be changed/modified
+		ex: StringBuffer
+ 	2. immutable : content of the object can not be changed / modified
+		ex: String and all wraper classes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

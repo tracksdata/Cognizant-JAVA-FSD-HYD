@@ -1,0 +1,52 @@
+
+
+Java's APIs
+---------------------
+ 1.  Java SE
+
+ 2. Java EE
+ 
+    All java APIs under 2 packages
+    
+       a. java
+       b. javax
+       
+       
+   a. java package
+   
+   
+         --> lang.*  --> Basic classes for Basic Java Programs
+         --> util.* 
+         --> util.regex.*;
+         --> util.logging.*;
+         --> io.*
+         --> sql.*
+         --> net.*
+         --> rmi.*
+         
+         --> java.awt.*; / javax.swing.*;
+         --> java.awt.event.*;
+         
+         --> java.text.*;
+         
+   b. javax package
+   ------------------------------
+   
+          --> servlet.*;
+          --> servlet.jsp.*;
+          
+          --> ejb.*;
+          
+          --------------------
+          
+          --> namimg.*
+          --> sql.*
+   --------------------------------             
+         
+         
+         
+         
+         
+         
+             
+  

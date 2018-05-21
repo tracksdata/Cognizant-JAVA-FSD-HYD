@@ -1,0 +1,56 @@
+
+
+Nested/Inner Classes
+----------------------
+
+
+  why we need?
+  -----------
+  
+  
+      --> To group all strong associated class within Main
+          class.
+          
+      --> To Encapsulate the class.
+      
+      --> To Overcome Multiple-Inheritance Limitation on class.
+      
+      --> To Access private members of One class in other
+          class.
+      
+      
+ Types of nested Class:
+ ---------------------
+ 
+   1. Non-Static inner Class.
+   2. Static inner Class
+   3. Local inner Class ( Much Used )
+   4. Anonymous inner Class ( Most Used )
+ 
+          
+          
+          Imp Notes --> Anonymous Inner Class
+          ------------------------------------
+          
+          When to use:
+          
+          Need only one one-sub class object having overrided method
+          within a method.
+          
+          rules:
+          -----
+          
+          --> A.I.C always mmust be extended/implemented by.
+          --> For A.I.C first create Object, then define
+              Class.
+          --> A.I.C obj will be assigned to super-class/
+              interface reference var.
+          --> A.I.C must have Overrided methods, otherwise defining
+              A.I.C is waste.
+          --> For A.I.C, we can Object only once.
+          --> Scope of A.I.C is within Method.    
+          
+          
+          
+          
+  

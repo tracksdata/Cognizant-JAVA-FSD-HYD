@@ -1,0 +1,22 @@
+Wraper classes
+---------------------
+
+-> avialble since JDK 5.0 and above
+
+Warping / converting primitive data types into objects and vice virsa is called wraper classes
+
+
+Primitive data type		Wraper class
+----------------------------------------------------
+	int				Integer
+	short				Short
+	byte				Byte
+	long				Long
+	float				Float
+	double				Double
+	boolean				Boolean
+	char				Character
+-----------------------------------------------------
+
+
+
