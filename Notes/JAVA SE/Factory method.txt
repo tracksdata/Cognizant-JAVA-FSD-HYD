@@ -1,0 +1,9 @@
+Factory method
+----------------
+-> new operator cannnot be used to create object to a class providing from some input sources.
+-> java provided a build in class java.lang.Class to hold class information
+
+
+
+
+

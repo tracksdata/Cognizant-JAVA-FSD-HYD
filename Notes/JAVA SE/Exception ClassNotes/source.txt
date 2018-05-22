@@ -1,0 +1,239 @@
+Exceptions & Exception Handling
+-----------
+1) Difference between Error & Exception
+2) Why Exceptions?
+3) Handling Exceptions
+*throws
+*try/catch
+*finally
+4) User defined Exceptions
+*Exception sub class
+*throw
+
+Exceptions are classified into two types:
+* Checked Exceptions/ compile time
+classes sub classing from Exception class
+*Unchecked Exceptions / Runtime 
+classes sub classing from RuntimeException
+
+Why Exceptions are raised at runtime of Java program?
+Ans) 
+*If exceptions are not raised our application may possible go to halt conditions/deadlock conditions
+*Java runtime environment in order prevent halt conditions it checks the condition due to which the program was halted and the cause corresponding Exception will be thrown into the program, so that program will be terminated
+*This could be encouragable if the rest of the program depends on the exception caused statement
+*If the rest of the program is not dependent on exception statement then it is not wise decision to terminate the whole process to handle such situations Exception Hadler mechanisms will come into the picture
+
+
+2) try/catch blocks
+*If java programmer wants to prevent abnormal termination the only option used is try/catch blocks
+*Exception predicted statement and its following statements are kept inside the try block following with one or more than one catch block with Exception ref
+For ex:
+#1 
+import java.io.IOException;
+
+public static void main(String rags[])
+{
+try
+{
+String str=null;
+char ch=(char)System.in.read();
+while(ch!='\n')
+{
+str=str+ch;
+ch=(char)System.in.read();
+}
+int i=Integer.parseInt(str.trim());
+System.out.println("int value is : "+i);
+}//try
+catch(java.io.IOException ioe)
+{
+}
+}
+
+An Expection in Java is a signal that indicates the occurance of some important or unexpected condition during execution.
+For example ,a requested file cannot be found,or an arrayIndex is out of bounds ,or a network Link failed. 
+
+
+
+Several threads can be executing in the JVM ,Each thread has its own runtime stack (also called the callstack or invocation stack)that is used to handle execution of methods.Each element on the stack(called an activation record or a stack frame)corresponds to a method call.Each new call results in a new activation record being pushed on the stack,which stores all the pertinent information such as storage for the local variables.The method with the activation record on top of the stack is the one currently executing .When this method finishes executing ,its record is popped from the stack.Execution then continues in the method corresponding to the activation record which is now uncovered on top of the stack.The methods on the stack are said to be active ,as their execution has not completed.At any given time ,the active methods on a runtime stack comprise what is called the stack trace of a thread's execution.
+
+note:-
+This error condition is signalled by the JVM by throwing an ArithmeticException .This exception is propagated by the JVM through the runtime stack .
+NOTE:-An uncaught exception results in the death of the thread in which the exception occurred.
+
+
+
+Exception Types:
+Exceptions in Java are Objects.All exceptions are derived from the java.lang.Throwable class.
+NOTE: The stack trace comprises the method invocation sequence on the runtime stack when the exception was thrown.
+
+CLASS Exception:-
+The class Exception represents exceptions that a program would want to be aware of during execution.
+Its subclass RuntimeException represents many common programming errors that manifest at runtime .
+Ex:(IOException,FileNotException,EOFException)and GUI relatedException(AWTException.
+Class RuntimeEXception:-
+Runtime exceptions,like out-of-bounds ar`ray indices (ArrayIndexOutOfBoundsException),unitialiazed (NullPointerException),illegalArgumentException
+
+
+Exception Handling :try ,catch and finally
+The mechanism for handling exceptions is embedded in the try-catch-finally construct ,which has the following general form
+try
+{
+<Statements>
+}catch(exception type1<parameter1>)
+{
+<statement>
+}
+....
+...
+...
+catch(exception typen<parametern>)
+{
+<statement>
+}
+finally
+{
+<statement>
+}
+Exceptions thrown during execution of the try block can be caught and handled in a catch block.
+ii)A finally block is guaranteed to be executed,regardless of the cause of exit from the try block,or whether any catch block was executed.
+NOTE:-
+a)For each try block there can be zero or more catch blocks ,but only one finally block.
+b)The catch blocks and finally block must always appears in conjunction with a try block.
+
+iii)Each catch block defines an exception handler.The header of the catch block takes exactly one argument,which is the exception its block willing to handle.The exception must be of the Throwable class or one of its subclasses.
+-----------------
+try BLOCK
+----------------
+The try block establishes a context that wants its termination to be handled.
+i)Termination occurs as a result of encountering an exception,or from successful execution of the code in the try block.
+ii)For all exists from the try block ,except those due to exceptions,the catch blocks are skipped and control is transferred to the finally block.
+iii)For all exists from the try block resulting from exceptions, control is transferred to the catch blocks-if any such blocks are specified -
+iv)If no catch block matches the thrown exception,control is transferred to the finally block,if one is specified.
+
+--------
+catch BLOCK
+-------------
+i)Only an exit from a try block resulting from an exception can transfer control to a catchblock.
+ii)A catch block can only catch the thrown exception if the exception is assigned to the parameter in the catch block
+iii)The code of the first such catch block is executed and all other catch blocks are ignored.
+
+iv)On exit from a catch block ,normal execution continues unless there is any pending exception that has been thrown and not handled. If this is the case,the method is aborted and the exception is propagated up the runtime stack.
+v)After the a catch has been executed ,control is always transferred to the finally block.if one is specified.This is always true as long as there is a finally block,regardless of whether the catch block itself throws an exception.
+VNOTE:-The javac compiler also complains if a catch block for a superclass exception shadows the catch block for a subclass exception,as the catch block of the subclass exception will never be executed.
+............
+.............
+}catch(Exception e)//super class
+{
+System.out.println(e);
+}
+catch(ArthmeticException e)
+{
+System.out.println(e);
+}
+....
+                  Exception Types
+-----------------------------------------------------------------------
+Exceptions in Java are Objects.All exceptions are derived from the java.lang.Throwable class.
+			Throwable
+			-Exeception
+			--ClassNotFoundException
+			--IOException
+			---EOFException
+			---FileNotFoundException
+			--RuntimeException
+			----NullPointerException
+			----ArithmeticException
+			----ClassCastException
+			----IllegalArgumentException
+			------NumberFormatException
+			----IndexOutOfBoundsException
+			-----ArrayIndexOutOfBoundsException
+			-----StringIndexOutBoundsException
+
+The class Throwable provides the following common methods to query an exception :
+                        
+Prints the stack trace on the standard error stream.
+The stack trace comprises the method invocatin sequence on the runtime stack when the exception was thrown.The stack trace can also be written to a PrintStream or a PrintWriter by supplying such a destination as an argument to one of the two overloaded printStakckTrace() methods/
+iii)String toString()
+Returns a short description of the exception ,which typically comprises the class name of the exception together with the string returned the getMessage() method.
+
+
+
+---------
+finally BLOCK
+-----------------------------------------------------------------------If the try block is executed,then the finally block is guaranteed to be executed,regardless of whether any catch block was executed.Since the finally block is always executed before control transfers to its final destination,it can be used to specify any clean-up code(for example to free resources such as ,files ,net connections)
+i)If there is no exception thrown during execution of the try block or the exception has been handled in a catch block ,then normal execution continues after the finally block.
+ii)If there is any pending exception that has been thrown and not handled (either due to the fact that no catch block was found or the catch block threw an exception),the method is aborted and the exception is propagated after the execution of the finally block
+iii)If the finally block throws an exception ,then this exception is propagated with all its ramifications-regardless of how the try block or any catch block were executed.In particular ,the new exception overrules any previous unhandled exception.
+iv)If the finally block executes a control transfer statement such as, a return or a labeled break,then this control transfer statement determines how the execution will proceed-regardless of how the try block were executed.In particular, a value returned by a return statement in the finally block will supersede any value returned by a return statement in the try block or a catch block.
+
+NOTE:-On exiting from the finally block ,if there is any pending exception ,the method is aborted and the exception propagated as explained earlier.
+
+
+
+
+
+Checked and Unchecked Exceptions
+-----------------------------------------------------------------------
+i)Except for RuntimeException,Error and their subclasses ,all exceptions are called checked exceptions.The compiler ensures that if a method can throw a checked exception,directly or indirectly ,then the method must explictly deal with it.The method must either catch the exception and take the appropriate action,or pass the exception on to its caller.
+ii)
+  RuntimeException classes and their subclasses are known as unchecked Exceptions,meaning that a method is not obliged to deal with these kinds of Exceptions.
+
+
+
+
+
+
+throw Clause
+-----------------------------------------------------------------------i)A program can explicitly throw an exception using the throw statement
+.The general format of the throw statement is as follows:
+throw<object reference expression>
+The compiler ensures that the <object reference expression>is of type Throwable class or one of is subclasses.At runtime a Null PointerException is thrown if the <object reference expression >is null.
+This ensures that a Throwable will always be propagated .
+When an exception is thrown ,normal execution is suspended.The runtime system proceeds to find a catch block that can handle the exception.
+The search starts in the context of the current try block ,propagating to any enclosing try blocks and through the runtime stack to find a handler for the exception.Any associated finally block of a try block encountered along the search path is executed.If no handler is found,then the exception is dealt with by the default exception handler at the top level.If a handler is found,execution resumes with the code in its catch block.
+
+
+    throws Clause
+-----------------------------------------
+The Exception Hadlers are:
+1) throws
+*If we don't want to prevent abnormal terminations we can for this clause
+*But atleast the exception caused detail should be redirected onto STDERR devices
+*throws clauses must always be used beside the function signature
+For example:
+#1 public static void main(String rags[]) throws Exception
+{}
+
+..........someMethod()throws <Exception type1>,<Exception type2>,<Exception typ3>,<Exception type4>,<Exception type4>,<Exception typ5>........
+{
+}
+i)Each <Exception type>declares a checked exception.The compiler enforces that the checked exception thrown by a method are limited to those specified in its throws clause.Of course ,the method can throw exceptions that are subclasses of the checked exception in the throw clause.This is permissable since exceptions are objects ,and a subclass object can polymorphically acts as an Object of its superclass 
+Note:The throws clause can have unchecked exceptions specified ,but this is seldom used and the compiler does not check them.
+		 
+i)Any method that can cause a checked exception to be thrown,either directly using the throw statement or Indirectly by invoking other methods taht can throw such an exception,must deal with the exception in one of three ways.
+a)Use a try block and catch the exception in a handler and deal with it.
+b)use a try block and catch the exception in a handler ,but throw another exception that is either unchecked or declared in its throws clause
+c)explicitly allow propagation of the exception to its caller by declaring it in the throws clause of its method prototype.
+ NOTE:-
+The exception type specified in the throws clause in the method prototype can be a superclass type of the actual exception thrown,that is ,the exception thrown must be assignable to the type of the exceptions specified in the throws clause.
+NOTE2:-
+i)A subclass can override a method defined in its superclass by providing a new implementation .
+ii)What happends when an inherited method with a list of exceptions in its throws clause is overridden in a subclass?
+iii)The method definition in the subclass can only specify a subset of the checked exception classes (including their subclasses)from the throws clause of the inherited method in the superclass.
+iv)This means that an overriding method cannot allow more checked exceptions in the overriding method in its throws clause than the inherited method does.
+Ex:
+class A
+{
+protected void superclassmethod()throws FirstException,SecondException,ThirdException
+{
+}
+}
+class B extends A
+{
+///
+protected void superclassmethod()throws FirstException,ThirdException{
+}
+}
+}
