@@ -1,0 +1,81 @@
+java.io     (Streams)
+-----------
+
+Streams means flow of characters
+IO Streams -> Flow of charachers from Input to output and output to input
+
+Persisting Data
+------------------
+	-> Storing data permanently in some place (Local HDD, Database or Cloud)
+CRUD -> Create, retrieve, Update and Delete
+
+Flat File System
+-------------------
+	-> Used to store the data in .txt file. Its very old approach.
+
+
+Two types of Streams
+------------------------
+	-> Input Stream
+	-> Output Stream
+
+Streams are two types
+	-> Character Streams
+	-> Byte Streams
+
+
+
+Character Streams
+----------------------
+	-> Reader (A)
+	-> Writer (A)
+
+Byte Streams
+------------
+	-> InputStream (A)
+	-> OutputStream (A)
+
+
+
+Seirealization
+-------------------
+-> Writing the state of an object into a file/stream
+
+	-> ObjectOutputStream
+	-> ObjectInputStream
+
+-> If any interface does not contains any methods, then that interface  is called as
+		marker or tagged interface
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
