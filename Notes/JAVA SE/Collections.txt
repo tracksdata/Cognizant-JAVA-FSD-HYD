@@ -1,0 +1,122 @@
+Java Collection API (java.util)
+
+1. Lenior DS
+2. Non-Lenior DS
+
+1. Linear DS
+-------------
+	-> Index order
+	-> stack, linked list .. etc
+	
+2. Non Linear DS
+----------------
+	-> Non-Indexed
+	-> trees, graps
+
+Hashing
+--------
+	-> Bucketing 
+
+Java
+-------
+Collection (I)
+	-> List  (Linear) 
+	-> Set   (Non-Linear)
+
+List
+----
+	-> index based interface
+	-> allows duplicate objects
+	-> maintance order
+Set
+----
+	-> non-indexed interface
+	-> Duplicates will not be allowed
+	-> Order is not maintained. (in some cased its a exception)
+
+
+Map
+----
+	-> non-indexed interface
+	-> Duplicates will not be allowed
+	-> Order is not maintained. (in some cased its a exception)
+
+
+1. List
+--------
+	-> ArrayList
+	-> Vector
+	-> LinkedList
+	-> Stack
+2. Set
+------
+	-> HashSet
+	-> LinkedHashSet
+	-> TreeSet
+
+3. Map
+------
+	-> HashMap
+	-> LinkedhashMap
+	-> TreeMap
+	-> Hashtable
+
+
+iterating techniques in list and set
+--------------------------------------
+	-> for loop
+	-> for each
+	-> Iterator interface
+	-> ListInterator interface
+
+	
+Generics (Templates)
+----------------------
+
+
+ArrayList		Vector
+---------------------------------------
+Indexed			Indexed
+Not Synchronized	Synchronized
+Very fast		Not very fast
+Non Secured	        Secured
+Increses size by        Increses the size by doubling the previous size
+halfing the previous 
+size
+
+------------------------------------------------------------------------------
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
