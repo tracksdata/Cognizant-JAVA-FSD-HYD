@@ -5,8 +5,12 @@ import java.io.Serializable;
 public class Employee implements Serializable {
 
 
-	private static final long serialVersionUID = 10;
+
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1000;
 	private int empId;
 	private String empName;
 	private double salary;
@@ -14,6 +18,11 @@ public class Employee implements Serializable {
 	private int age;
 	int name;
 	int ta;
+	transient String msg;
+	transient String msg1;
+	
+	
+	String addr;
 
 	public void f1() {
 	}

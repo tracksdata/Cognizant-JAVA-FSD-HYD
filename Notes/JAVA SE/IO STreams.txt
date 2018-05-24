@@ -37,7 +37,7 @@ Byte Streams
 
 
 
-Seirealization
+Serialization
 -------------------
 -> Writing the state of an object into a file/stream
 
