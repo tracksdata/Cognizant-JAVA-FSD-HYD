@@ -7,8 +7,8 @@ public class SetDemo {
 	public static void main(String[] args) {
 
 		LinkedHashSet<Object> hs = new LinkedHashSet<>();
-		Employee e1 = new Employee("Praveen",100);
-		Employee e2 = new Employee("Praveen",100);
+		Emp e1 = new Emp("Praveen",100);
+		Emp e2 = new Emp("Praveen",100);
 		/*hs.add("Praveen");
 		hs.add("James");
 		hs.add("Ozvitha");

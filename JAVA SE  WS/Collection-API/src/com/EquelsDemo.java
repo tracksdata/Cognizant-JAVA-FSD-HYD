@@ -1,6 +1,6 @@
 package com;
 
-class Employee {
+class Emp {
 
 	private String empName;
 	private int age;
@@ -14,7 +14,7 @@ class Employee {
 		this.age = age;
 	}
 
-	public Employee(String empName, int age) {
+	public Emp(String empName, int age) {
 		this.empName = empName;
 		this.age = age;
 	}
@@ -30,7 +30,7 @@ class Employee {
 	@Override
 	public boolean equals(Object obj) {
 
-		Employee emp = (Employee) obj;
+		Emp emp = (Emp) obj;
 		return empName.equals(emp.getEmpName()) && age==emp.getAge();
 	}
 	
@@ -48,8 +48,8 @@ public class EquelsDemo {
 
 	public static void main(String[] args) {
 
-		Employee e1 = new Employee("Praveen",100);
-		Employee e2 = new Employee("Praveen",100);
+		Emp e1 = new Emp("Praveen",100);
+		Emp e2 = new Emp("Praveen",100);
 
 		System.out.println("Hashcode of e1: " + e1.hashCode());
 		System.out.println("Hashcode of e2: " + e2.hashCode());
