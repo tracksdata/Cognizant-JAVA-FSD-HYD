@@ -1,0 +1,18 @@
+JUNIT TEST
+--------------
+-> AAA -> Arrange - Act - Assert
+
+-> TDD (test driven development)
+-> BDD (Behavior driven development)
+
+
+-> configure
+	-> jars of jnit
+	-> maven
+
+-> design your code
+-> write test cases to the code what you have designed
+
+
+
+ 
