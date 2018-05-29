@@ -1,6 +1,8 @@
 package com;
 
+import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -20,7 +22,8 @@ public class MyTest {
 	@Test
 	public void calculateSum() {
 		
-		assertEquals(40, calc.sum(20, 20));
+		//assertEquals(40, calc.sum(20, 20));
+		//assertThat(false, is(100>20));
 
 	}
 
