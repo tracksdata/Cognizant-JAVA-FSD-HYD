@@ -14,5 +14,7 @@ JUNIT TEST
 -> write test cases to the code what you have designed
 
 
+     fun(){}
+      m1() {  fun() }
 
  
