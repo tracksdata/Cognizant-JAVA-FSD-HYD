@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+<style>
+
+
+     .mystyle{
+        color: red;
+        font-size: 70px;
+        border: double 5px;
+        border-radius: 10px;
+        width: 30%;
+        text-align: center;
+    }
+
+    .is{
+        font-size: 30px;
+        color: blue;
+        border-radius: 10px;
+    }
+
+     #myid{
+        font-size: 30px;
+        color: blue;
+        border-radius: 10px;
+    }
+
+</style>
+
+<script type="text/javascript">
+
+    function test(){
+        var un=document.getElementById('userName');
+        //alert(un.value);
+        document.getElementById('cts').innerHTML=un.value;
+    }
+
+</script>
+
+</head>
+<body>
+
+    <h1>CSS Demo_</h1> <hr/>
+
+    <input class='is' id='userName' onblur="test()"> 
+   
+    <div id="cts">
+
+    </div>
+
+  
+
+
+
+    <p class="mystyle">Hello James</p>
+    <p style="width: 50%;color:purple">Hello Ozvitha</p>
+    <p style="border: solid;border-radius: 30px;width: 30%;background-color: silver" >Click Here</p>
+
+
+</body>
+</html>
