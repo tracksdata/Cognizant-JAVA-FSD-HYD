@@ -1,0 +1,108 @@
+.js intriduction
+--------------------------
+-> Scripting language for web pages in browser envi (client side)
+-> Server-side programming language on Node.js envi (Javascript Runtime)
+-> Hybried Mobile Native application
+
+
+.js features
+---------------
+-> Functional programing language and OPPS
+-> Dynamic typed programing language.
+-> Single-Threaded, but it will support concurent applications
+-> All IO operations .js are non-blocking
+
+
+--------------------------------------------------------------------------
+
+.js applications syntax and  core API are based on 'ECMAScript spec' (ES)
+
+    -> ECMAScript-2015 or ES6 (widly used)
+    -> ES7
+
+--------------------------------------------------------------------------
+
+
+    "Hello World application"
+
+---------------------------------------------------------------------------
+
+How to run .js program?
+    => we need .js-runtime/engine
+
+browser-envi
+
+    -> chrome   : V8 (C++)
+    -> firefox  : rhino (Java)
+    -> IE/Edge  : Chakra
+    -> Safari   : Nitro
+    .........
+
+Other envi
+
+    -> Node.js  : V8
+    -> JVM      : nashorm
+    .........
+
+------------------------------------------------------------------------
+
+
+Js-Topics
+----------
+
+    1. Data Types
+    2. Execution context / scopes
+    3. Functional programing and OOPS in .js
+    4. 'this' keyword / context's owener
+    5. using prototypes
+    6. ES6 features
+    7. ES6 Modules
+    8. Concurency Model with Event- loop(callbacks and non io BLOCKS)
+    9. Async API's (Promise API, RxJS)
+    10. TypeScript language
+
+-------------------------------------------------------------------------    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
