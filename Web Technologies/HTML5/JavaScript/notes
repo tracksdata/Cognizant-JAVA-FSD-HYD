@@ -53,6 +53,7 @@ Js-Topics
     1. Data Types
     2. Execution context / scopes
     3. Functional programing and OOPS in .js
+    Functions in depth..
     4. 'this' keyword / context's owener
     5. using prototypes
     6. ES6 features
