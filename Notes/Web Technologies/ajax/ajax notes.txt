@@ -1,0 +1,52 @@
+AJAX (Asynch Java Script API XML)
+
+==> XHR Object ==> XML Http Rquest Objeect
+
+------------------------------------------------------
+var httpRequest;
+if (window.XMLHttpRequest) { // Mozilla, Safari, IE7+ ...
+    httpRequest = new XMLHttpRequest();
+} else if (window.ActiveXObject) { // IE 6 and older
+    httpRequest = new ActiveXObject("Microsoft.XMLHTTP");
+}
+-------------------------------------------------------
+
+httpRequest.onreadystatechange = function(){
+    // Process the server response here.
+};
+
+-------------------------------------------------------
+
+httpRequest.open('GET', 'http://localhost:8080/MyServerApp/one.jsp', true);
+httpRequest.send();
+
+-------------------------------------------------------------
+
+The full list of the readyState values is documented at XMLHTTPRequest.readyState and is as follows:
+
+0 (uninitialized) or (request not initialized)
+1 (loading) or (server connection established)
+2 (loaded) or (request received)
+3 (interactive) or (processing request)
+4 (complete) or (request finished and response is ready)
+
+------------------------------------------------------------------
+
+   FULL CODE
+ -----------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+<script>
+
+function loadDoc() {
+var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML =this.responseText;
+    }
+  };
+  xhttp.open("GET", "http://localhost:8080/MyServerApp/one.jsp", true);
+  xhttp.send();
+}
+
+    </script>    
+
+
+
+</head>
+<body>
+
+    <h1>Ajax Demo_</h1> <hr/>
+
+
+<div id="demo">
+  <h2>Sample Default Data</h2>
+</div>
+
+<button onclick="loadDoc()"> Load Data From Server</button>
+
+</body>
+</html>
