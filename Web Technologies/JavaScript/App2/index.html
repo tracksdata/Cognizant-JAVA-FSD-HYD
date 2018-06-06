@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <script src="keyboard.js"></script>
+</head>
+<body>
+    <h1>Keyboard-Events Demo_</h1> <hr/>
+
+<form>
+
+    <div>
+        Present Address: 
+        <textarea onkeyup="copyAddress()" id='preAddr'></textarea>
+    </div>
+     
+    <div>
+            Permananet Address: 
+            <textarea id='perAddr'></textarea>
+    </div>
+
+    <div>
+        Skill 1: <input type='text' name='sk1'>
+    </div>
+
+    <div>
+            Skill 2: <input type='text' name='sk2'>
+    </div>
+    
+    <div id='newSkill'>
+
+    </div>
+    <div>
+        <button onclick="addSkill()">Add Skill</button>
+    </div>
+
+</form>
+
+
+
+</body>
+</html>
