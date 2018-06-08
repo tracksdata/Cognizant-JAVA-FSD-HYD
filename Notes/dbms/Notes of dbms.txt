@@ -1,0 +1,37 @@
+What is DBMS?
+What is a database?
+types of data bases
+What is a table?
+How data store in a table
+Primary key, foreignkey and composit primary key
+Normalization Forms -> to to 3-NF
+Entity relationships
+	-> oen to one
+	-> one to many
+	-> many to one
+	-> many to many
+-> What is a query?
+-> what is SQL?
+-> Basic DML commands
+	-> insert
+	-> update
+	-> delete
+-> Basic DDL commands
+	-> select
+	-> create
+	-> alter
+
+-> Basic SQL queries to save data to a table
+-> to retrieve data from a table
+-> to update data in a table	
+-> to delete data in a table
+
+--> liitle bit basic knolerdge on Joins is recamended (Super)
+
+                 ---          :}     ---------
+
+
+
+
+
+
