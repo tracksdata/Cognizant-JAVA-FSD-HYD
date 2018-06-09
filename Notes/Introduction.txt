@@ -10,3 +10,8 @@ Introduction
 8. GIT
 9. JUNIT and UI testing
 
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/richardsforu/test-1.git
+git push -u origin master
