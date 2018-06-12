@@ -19,20 +19,24 @@ public class Test {
 		cfg.configure();
 		
 		SessionFactory sf=cfg.buildSessionFactory();
-		 Session session = sf.openSession();
+		Session session = sf.openSession();
 		
 		
-		Employee emp=new Employee();
-		emp.setEmpId(12);
-		emp.setEmpName("Ozvitha");
-		emp.setSalary(3);
+		Product prod=session.load(Product.class, "P005");
+		
+		//System.out.println("Product Id: "+prod.getProdId());
+		//System.out.println("Product Name: "+prod.getProdName());
+		//System.out.println("Price: "+prod.getPrice());
 		
 		
-		session.save(emp);
 		
-	
-		session.beginTransaction().commit();
 		
+		
+		
+		 
+		 
+		 
+		 
 		
 		System.out.println("----- Done ----");
 		

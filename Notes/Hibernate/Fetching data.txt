@@ -1,0 +1,19 @@
+Hibernate fetching techniques
+---------------------------------
+1. Single row operations
+2. Multi row operations
+
+
+1. Single row operations
+---------------------------
+    -> get  -> eager fetching
+    -> load -> lazy fetching
+
+2. Multi row operations
+--------------------------
+    -> HQL (Hibernate Query Langauge)
+    -> Criteria API
+    -> Native SQL
+
+
+----------------------------------------------------------
