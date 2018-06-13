@@ -1,0 +1,97 @@
+Hibernate Notes
+--------------------
+JDBC -> Java database connectivity
+
+			-> database dependent
+			-> Poor transaction management.
+			-> Poor Exception handling
+			-> Programer SQL stress
+			-> Code tangling and scatering 
+			-> Connection pooling management is poor
+
+ ORM (Object relational Mapping)
+ ----------------------------------
+	-> database independent 
+	-> No need of any DB SQL knowledge. 
+    -> Exception Handling mechanism is good
+	-> Transaction management is maintained good
+	-> It supports objet oriented programing technique
+
+ORM
+------
+	-> Hibernate (Soft tree). -> Gavin King
+	-> JPA (Java Persistence API ) -> Sun
+	-> Toplink (Oracle)
+	-> Ibatics (Apache)
+	-> EJB (Enterprise Java beans) -> Sun
+
+
+Hibernate 
+============
+
+Hibernate is a light weight open source software who can handle objet
+level programing mapping with all relatinal databases
+
+Steps to configure Hibernate
+-------------------------------
+	1. downoad all dependies of Hibernate
+	2. configure hibernate.cfg.xml file for database information
+	3. provide entity classes
+	4. map entity classes in hibernate.cfg.xml file
+	5. write any client application who can read hibernate.cg.xml file
+	   -> create a session factory for a single database
+	   -> get sessions from session to handle all db operations
+
+
+Hibernate CRUD operations
+----------------------------
+	Two Types
+		-> Single row operations
+		-> Multi row operations
+
+single row operations
+-----------------------
+	1. save
+	2. saveOrUpdate
+	3. update
+	4. delete
+	5. evict
+	6. merge
+
+Multi row operations
+---------------------
+	1. HQL (Hibernate Query Language)
+	2. Criteria API
+	3. Native SQL
+
+
+Fetching methods for single row operations
+-----------------------------------------------
+	1. get -> eager Fetching technique
+	2. load -> lazy fetching technique
+
+
+get
+-----
+	-> eager fetching technique
+	-> NullPointerException raises when finding object not available in db
+	-> hits the database even when you are not using returned object from database
+
+load
+-----
+	-> lazy fetching technique
+	-> ObjectNotfoundException raises when finding object not available in db
+	-> does not hit database even when target object is not available in db
+
+Note: Hibernate software single row operations will works only on primary key
+      columns. If a database tabble does not have a primary key, then 
+	  hibernte software doesn't support that table.
+
+
+
+
+
+
+
+
+
