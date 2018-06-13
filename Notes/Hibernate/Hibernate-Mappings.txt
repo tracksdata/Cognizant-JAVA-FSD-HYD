@@ -1,0 +1,22 @@
+Hibernate-Mappings
+-------------------------
+    1. one to one 
+    2. one to many (collections)
+    3. many to one 
+    4. many to many (collections)
+
+------------------------------------------
+
+1. one to one Mapping
+-------------------------
+    -> Mapping one entity class with one relational table in data base
+    Ex: if an employee is mapped for a single department id, then same 
+        employee cannnot be mapped to anotther department id
+    -> we use @One-To-One annotation to denote it.
+    -> Ths always maintains primary key and foreign key relationships
+
+
+2. one to many (collections)
+-------------------------------
+
+
