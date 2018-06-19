@@ -1,4 +1,4 @@
-package com.onetomany;
+package com.manytoone;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,18 +10,20 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.OneToMany;
+
+import com.manytoone.Employee;
+
 @Entity
 public class Department {
 	@Id
 	private int deptId;
 	private String deptName;
 	private String loc;
-	
-	
-	@OneToMany(cascade=CascadeType.ALL,fetch=FetchType.EAGER)
-	@JoinTable(name="deptdetails",joinColumns= {@JoinColumn(name="deptId")},inverseJoinColumns= {@JoinColumn(name="empId")})
-	List<Employee> emps=new ArrayList<Employee>();
 
+	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+	@JoinTable(name = "deptdetails", joinColumns = { @JoinColumn(name = "deptId") }, inverseJoinColumns = {
+			@JoinColumn(name = "empId") })
+	private List<Employee> emps = new ArrayList<Employee>();
 
 	public List<Employee> getEmps() {
 		return emps;

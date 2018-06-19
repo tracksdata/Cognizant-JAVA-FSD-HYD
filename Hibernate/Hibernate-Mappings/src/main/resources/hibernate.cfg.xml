@@ -38,9 +38,11 @@
 <!-- 		<mapping class="com.onetoone.Employee" />  -->
 <!-- 		<mapping class="com.onetoone.Department" /> -->
 
-			<mapping class="com.onetomany.Employee" /> 
-			<mapping class="com.onetomany.Department" />
+<!-- 			<mapping class="com.onetomany.Employee" />  -->
+<!-- 			<mapping class="com.onetomany.Department" /> -->
 		
+			<mapping class="com.manytoone.Employee" /> 
+			<mapping class="com.manytoone.Department" />
 
  
 		

@@ -18,5 +18,26 @@ Hibernate-Mappings
 
 2. one to many (collections)
 -------------------------------
+    -> Mapping one entity class with many entity classes.
+    -> Join table
+    -> Join columns
+
+3. Many to One
+-------------------
+    -> mapping many entity class with a single entity class
+    Ex: many employees can be mapped to a single department
+    -> by default this relationship in hibernate will not create any third table.
+    -> if you are mapping many employees to a single department, then
+    -> employee table creates a foreign key of department.
+
+    
+
+
+
+
+
+
+
+
 
 
