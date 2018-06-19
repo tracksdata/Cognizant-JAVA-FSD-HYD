@@ -30,7 +30,25 @@ Hibernate-Mappings
     -> if you are mapping many employees to a single department, then
     -> employee table creates a foreign key of department.
 
+
+4. Many to Many
+-------------------
+    -> Onece one entity is mapped with any other entity, then same entity can be mapped to more 
+       than other entities and vice versa.
+
+       Ex: If student is mapped to a course, then same student can be mapped to some other
+           couse also. and same couse also can be mapped by other students.
+
+
+ -> Student and course
+ -> Doctor and patient
+ -> Patient and Test
+ -> Deligate and Meeting
     
+        -> Uni-directional
+        -> bio-directional
+
+--------------------------------        
 
 
 
