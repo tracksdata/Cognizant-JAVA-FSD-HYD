@@ -48,7 +48,54 @@ Hibernate-Mappings
         -> Uni-directional
         -> bio-directional
 
---------------------------------        
+--------------------------------    
+
+
+
+
+Multi Row Operations
+-------------------------
+    -> working on data base table records with out depending on primary keys
+    -> used to deal with bulk Operations
+        Three techniques
+        -----------------
+            1. HQL (Hibernate query language)
+            2.Criteria API
+            3. Native SQL
+
+1. HQL
+------------
+    -> hql queries  in hibernate are database indent queries
+    -> onnce you know syntax of hql, then you can work  with all types of data bases
+    -> one hql can work with multi databases with same queries. so no need of learning 
+       many database queries'
+
+Note: HQL syntax is very similar to SQL syntax
+
+EX: Select all records from a database table
+SQL: select * from empployee (here employee is a database table )
+HQL: from Employee (here Employee is a entitity class)
+     from Employee eb
+     from Employee as  eb (here eb holding properies of a EMployee class)
+
+
+Note: HQL uses you entity classes. All queries in hql is based on your POJO/Entity classes only
+SO, Entity class means your database table,
+    Entity class properties means you database table column names.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
