@@ -24,3 +24,28 @@ OO Principles
 -> Dependency Injection
 
 
+
+Auto Wiring
+--------------------
+    -> Injecting Dependency Object to the Dependent class
+
+Types of Auto Wiring
+----------------------
+    1. by Type
+    2. by name
+    3. by constructor
+    4. default
+    5. none
+
+
+
+  Spring Annottaions
+  ---------------------------
+    @Configuration     ===> confiring java applications with spring boot
+           
+            -> @Component   ==> to denote a class which is not under Service
+                                    or Repositary or Controller
+            -> @Service     ==> to denote service classes
+            -> @Repositary ==> to denote database classes
+            -> @Controller  ==> to denote web applications
+
