@@ -1,0 +1,26 @@
+Spring framework  Notes
+--------------------------
+
+-> Rod Johnson
+
+ShopIT
+--------
+
+1. PriceMatrix : getPrice(item)   ->     Dependency class 
+2. Billing     : getTotalPrice(cart)  -> Dependent class
+
+----------------------------------------------------------
+
+OO Principles
+------------------------------
+-> Single Responsibility
+-> Open for extensions and closed for modifications
+-> Loose coupling 
+        -> Dependency Object
+            -> Never depends on any other objects. works independently
+        -> Dependent Object
+            -> Always dependends on other objects
+-> Inversion of Controll (IoC)
+-> Dependency Injection
+
+
