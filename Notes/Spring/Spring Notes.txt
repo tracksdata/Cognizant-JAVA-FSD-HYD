@@ -49,3 +49,34 @@ Types of Auto Wiring
             -> @Repositary ==> to denote database classes
             -> @Controller  ==> to denote web applications
 
+--------------------------------------------------------------------------------
+
+DI
+----
+    -> setter Injection
+    -> constructor Injection
+
+ setter Injection
+ --------------------
+ -> using this technique we can set the data to the properties as many times you need
+
+ constructor Injection
+ -----------------------
+ -> using this technique you can set data only one time in the life cycle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

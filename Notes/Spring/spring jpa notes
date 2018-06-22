@@ -1,0 +1,76 @@
+Spring boot
+--------------
+
+    -> Spring Core
+    -> Spring aop
+    -> SPring Data access
+            -> SPring JDBC
+            -> Spring ORM
+                    -> Spring JPA
+    -> Spring MVC
+    -> Spring Rest API (Web Services)
+    -> Spring Security
+
+    ---------------------------------------------
+
+Spring JPA (Data)
+---------------------------
+-> JPA (Java  Persistemnce API)
+-> ORM based DB operatiopns on object level
+
+Advantages
+-----------------
+-> Spring JPA provides a default contractor in the form of abstract methods
+-> We dont need to provide our won dao classes or implementation logics
+-> provides built in CRUD operation methods
+-> provides custom database business logic methods
+-> provides query based methods to interact with databases
+
+
+Interfaces  in SPring JPA
+    -> JPACrudRepository
+    -> Repositary
+
+
+application.properties 
+------------------------
+https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+
+Step 1. 
+---------------
+
+-> Provide below details in application.properties file 
+
+# create and drop tables and sequences, loads import.sql
+spring.jpa.hibernate.ddl-auto=create
+
+# MYSQL settings
+spring.datasource.url=jdbc:mysql://localhost:3306/test
+spring.datasource.username=root
+spring.datasource.password=root1234
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+
+# logging
+logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n
+logging.level.org.hibernate.SQL=debug
+
+----------------------------------------------------------
+
+Step 2
+--------
+provide Entity class
+
+Step 3
+--------
+provide repository class/interfaces
+
+step 4
+---------
+
+Write test class to use your repository classes or interfaces
+
+
+
+
+
+
