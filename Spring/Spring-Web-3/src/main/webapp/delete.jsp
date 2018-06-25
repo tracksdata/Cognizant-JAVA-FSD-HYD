@@ -8,14 +8,39 @@
 </head>
 <body>
 
-<center>
-<a href='/home.jsp'>Home</a> |
-<a href='../addproduct.jsp'>Add</a> |
-<a href='listAll'>Display</a> |
-<a href='../findproduct.jsp'>Find</a> |
-<a href='update.jsp'>Update</a> |
-<a href='../delete.jsp'>Delete</a> |
-<a href=''>Logout</a> 
-</center>
+<jsp:include page="/menu.jsp"/>
+<h2 align='center'>Delete Product</h2><hr/>
+
+<form action="deleteProduct" method="post">
+
+
+<table align="center">
+
+<tr>
+	<td>Product Id</td>
+	<td><input type="text" name="id"></td>
+</tr>
+<tr>
+	<th colspan='2'>
+	<input type="submit" value="Delete Product">
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+</table>
+
+
+</form>
+
+
 </body>
 </html>

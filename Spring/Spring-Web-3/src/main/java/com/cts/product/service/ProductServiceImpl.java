@@ -10,7 +10,7 @@ import com.cts.product.entity.Product;
 
 @Service
 public class ProductServiceImpl implements ProductService {
-	
+
 	@Autowired
 	private ProductDao prodDao;
 
@@ -21,15 +21,16 @@ public class ProductServiceImpl implements ProductService {
 
 	@Override
 	public List<Product> listAll() {
-		
-		//prodDao.
-		
+
+		// prodDao.
+
 		return prodDao.listAll();
 	}
 
 	@Override
 	public void deleteProduct(int id) {
 
+		prodDao.delete(id);
 	}
 
 	@Override
@@ -39,6 +40,8 @@ public class ProductServiceImpl implements ProductService {
 
 	@Override
 	public void updateProduct(Product product) {
+		// prodDao.updatePrpduct(name,price,id);
+		prodDao.save(product);
 
 	}
 }

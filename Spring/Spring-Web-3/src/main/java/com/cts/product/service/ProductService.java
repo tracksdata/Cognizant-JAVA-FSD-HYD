@@ -15,5 +15,6 @@ public interface ProductService {
 	Product findProduct(int id);
 
 	void updateProduct(Product product);
+	// void updateProduct(String name,double price,int id);
 
 }

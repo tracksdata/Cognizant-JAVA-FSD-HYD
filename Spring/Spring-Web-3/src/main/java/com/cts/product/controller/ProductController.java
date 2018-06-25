@@ -4,11 +4,11 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
-
 import com.cts.product.entity.Product;
 import com.cts.product.service.ProductService;
 
@@ -28,7 +28,7 @@ public class ProductController {
 	// }
 
 	@RequestMapping(value = "saveProduct")
-	public String saveProduct(@ModelAttribute("blabla") Product product) {
+	public String saveProduct(@ModelAttribute("blabla") Product product,Model data) {
 
 		prodService.saveProduct(product);
 
@@ -38,6 +38,7 @@ public class ProductController {
 		// "+product.getPrice());
 		// System.out.println("--- saving Product with Id: "+prodId+" name: "+prodName+"
 		// price: "+price);
+		data.addAttribute("msg", "Product saved to DB");
 		return "home";
 
 	}
@@ -70,10 +71,45 @@ public class ProductController {
 	}
 	
 	
+	// find the product in order to update it
 	
 	
 	
+	@RequestMapping("updateProduct_v1")
+	public ModelAndView updateProduct_v1(@RequestParam("id") int id,@ModelAttribute("pu") Product prod) {
+		
+		ModelAndView mav=new ModelAndView();
+		
+		prod= prodService.findProduct(id);
+		mav.addObject("product", prod);
+		mav.setViewName("updateproduct");
+		
+		return mav;
+		
+	}
 	
+	
+	@RequestMapping("productUpdate_v2")
+	public String updateproduct_v2(@ModelAttribute() Product product,Model data) {
+		
+		prodService.updateProduct(product);
+		data.addAttribute("msg",product.getName()+" is updated to DB");
+		System.out.println("---- Update Called");
+		return "home";
+	}
+	
+	
+	
+	@RequestMapping("deleteProduct")
+	public String deleteProduct(@RequestParam("id") int id,Model data) {
+		
+		prodService.deleteProduct(id);
+		
+		data.addAttribute("msg",id +" is Deleted from DB");
+		return "home";
+
+		
+	}
 	
 	
 	

@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+<%@taglib uri="http://java.sun.com/jstl/core_rt" prefix="c" %>    
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -8,14 +10,15 @@
 </head>
 <body>
 
-<center>
-<a href='/home.jsp'>Home</a> |
-<a href='../addproduct.jsp'>Add</a> |
-<a href='listAll'>Display</a> |
-<a href='../findproduct.jsp'>Find</a> |
-<a href='update.jsp'>Update</a> |
-<a href='../delete.jsp'>Delete</a> |
-<a href=''>Logout</a> 
-</center>
+<jsp:include page="/menu.jsp"/>
+
+<h1>Welcome to my Application</h1> <hr/>
+<c:if test="${msg} ne null">
+<h2>${msg} </h2>
+
+</c:if>
+
+
+
 </body>
 </html>
