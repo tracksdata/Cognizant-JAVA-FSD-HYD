@@ -8,11 +8,14 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.SessionAttribute;
+import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.servlet.ModelAndView;
 import com.cts.product.entity.Product;
 import com.cts.product.service.ProductService;
 
 @Controller
+@SessionAttributes(value= {"user"})
 public class ProductController {
 
 	@Autowired
@@ -26,6 +29,14 @@ public class ProductController {
 	// System.out.println("--- saving Product with Id: "+prodId+" name: "+prodName+"
 	// price: "+price);
 	// }
+	
+	
+	
+	
+	public String loginCheck() {
+		
+		return "";
+	}
 
 	@RequestMapping(value = "saveProduct")
 	public String saveProduct(@ModelAttribute("blabla") Product product,Model data) {

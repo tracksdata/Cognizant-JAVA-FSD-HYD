@@ -1,0 +1,28 @@
+Spring REST API
+-------------------
+    > Web API Developrs
+
+    WEB Services
+    ----------------
+        -> SOAP (JAX-WS) -> spec
+                -> axes web server
+        -> REST (JAX-RS) -> spec
+                -> Jersy
+                -> Rest Easy
+
+    -----------------------------
+    Spring Rest API
+    --------------------
+        -> REST Principles
+
+
+   HTTP Methods
+   --------------
+
+   1. GET  (fetch data )
+   2. POST (post data)
+   3. PUT  (update data)
+   4. DELETE  (delete data)  
+   
+     
+
