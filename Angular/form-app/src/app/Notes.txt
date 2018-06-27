@@ -1,0 +1,13 @@
+Binding
+------------
+1. Property  Binding -> [ ]
+        Three ways
+        ------------
+        1. String interpolation
+        2. []
+        3. bind-property value
+        
+        <input value='Hello'>
+2. Event Binding -> ()
+3. Two way Binding  -> ([])
+4. String interpolation -> {{}}

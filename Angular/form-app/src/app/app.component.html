@@ -1,0 +1,14 @@
+<div class="container">
+
+<div class="form-group mt-5">
+
+Name:  <input type="text" #s1 class="form-control" bind-value='name'>
+Age: <input type="text" class="form-control" [value]='age'>
+Address: <input type="text" class="form-control" [(ngModel)]='addr'>
+<img [src]='imagePath'>
+<button  [disabled]='!showData' class="btn btn-primary" (click)='myFun()'>Click Here</button>
+</div>
+<div [hidden]='!showData'>
+<h1>Adddress: {{addr}}</h1>
+</div>
+</div>
