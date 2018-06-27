@@ -23,6 +23,9 @@ Spring REST API
    2. POST (post data)
    3. PUT  (update data)
    4. DELETE  (delete data)  
-   
+
+   URLS
+   ----
+   http://localhost:8080/getProduct
      
 

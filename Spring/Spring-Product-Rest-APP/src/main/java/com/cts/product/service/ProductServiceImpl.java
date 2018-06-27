@@ -14,7 +14,8 @@ public class ProductServiceImpl implements ProductService {
 	@Autowired
 	private ProductDao prodDao;
 
-	// save product
+	
+	//save product
 	@Override
 	public String saveProduct(Product product) {
 		prodDao.save(product);
@@ -27,17 +28,22 @@ public class ProductServiceImpl implements ProductService {
 		return prodDao.findOne(id);
 	}
 
+	
 	// Find all products by Name
 	@Override
 	public List<Product> findByName(String name) {
 		return prodDao.findByName(name);
 	}
+	
+	
 
 	// list all products
 	@Override
 	public List<Product> listAll() {
 		return prodDao.listAll();
 	}
+	
+	
 
 	// Update Product using product Id
 	@Override
@@ -45,6 +51,8 @@ public class ProductServiceImpl implements ProductService {
 		prodDao.save(product);
 		return product.getId() + " is updated to DB";
 	}
+	
+	
 
 	// Delete product by Id
 	@Override
