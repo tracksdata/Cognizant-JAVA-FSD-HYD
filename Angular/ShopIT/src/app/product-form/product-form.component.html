@@ -1,0 +1,26 @@
+<div class="col-md-6">
+    <div class="card">
+      <div class="card-header">Product Form</div>
+      <div class="card-body">
+        <form name="productForm" [formGroup]="productForm" (submit)="handleSubmit($event)">
+          <div class="form-group">
+            <label>Id</label>
+            <input class="form-control" formControlName="id">
+          </div>
+          <div class="form-group">
+            <label>Name</label>
+            <input class="form-control" formControlName="name">
+          </div>
+          <div class="form-group">
+            <label>Price</label>
+            <input class="form-control" formControlName="price">
+          </div>
+          <div class="form-group">
+            <label>Description</label>
+            <textarea class="form-control" formControlName="description"></textarea>
+          </div>
+          <button class="btn btn-primary">Save</button>
+        </form>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,21 @@
+<div class="card">
+    <div class="card-header">
+      Products List
+    </div>
+    <div class="card-body">
+      <table class="table table-sm">
+        <tbody>
+          <tr *ngFor="let product of products">
+            <td>{{product.id}}</td>
+            <td>{{product.name}}</td>
+            <td>&#8377;{{product.price}}</td>
+            <td>{{product.makeDate|date}}</td>
+            <td><a [routerLink]="['/products/edit',product.id]"><i class="fa fa-edit"></i></a></td>
+            <td><a><i class="fa fa-trash"></i></a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <hr/>
+  <router-outlet></router-outlet>

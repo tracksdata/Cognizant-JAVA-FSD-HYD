@@ -7,7 +7,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -62,6 +61,10 @@ public class ProductRestController {
 
 	@PostMapping("/product/")
 	public ResponseEntity<String> saveProduct(@RequestBody Product product) {
+		System.out.println("-- Prod Id: "+product.getId());
+		System.out.println("-- Name: "+product.getName());
+		System.out.println("-- Price: "+product.getPrice());
+		
 		return new ResponseEntity<String>(prodService.saveProduct(product), HttpStatus.OK);
 	}
 

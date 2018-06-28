@@ -1,0 +1,32 @@
+<div class="container">
+
+<!-- As a link -->
+<nav class="navbar navbar-light bg-primary">
+    <a class="navbar-brand" routerLink='/'>Shop APP</a>
+  </nav>
+
+  <hr/> <hr/>
+
+  <div class="row">
+
+      <div class="col-3 col-sm-3 col-md-3">
+          <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link " routerLink='/products'>Show-Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" routerLink='/addproduct'>Add Product</a>
+              </li>
+             
+            </ul>
+      </div>
+
+      <div class="col-9 col-sm-9 col-md-9">
+          
+        <router-outlet></router-outlet>
+
+      </div>
+  </div>
+
+
+</div>
